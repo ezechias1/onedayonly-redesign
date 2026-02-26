@@ -15,8 +15,7 @@ import {
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { useUIStore } from '@/store/ui-store';
-import { headerNav, categoryNav } from '@/data/navigation';
-import { categories } from '@/data/categories';
+import { headerNav } from '@/data/navigation';
 
 // ---------------------------------------------------------------------------
 // Overlay variants
@@ -38,17 +37,6 @@ const drawerVariants = {
     transition: { type: 'tween' as const, duration: 0.25 },
   },
 };
-
-// ---------------------------------------------------------------------------
-// Helpers
-// ---------------------------------------------------------------------------
-
-/** Map a category nav slug to its emoji icon from the categories dataset. */
-function getCategoryIcon(href: string): string {
-  const slug = href.split('/').pop() ?? '';
-  const category = categories.find((c) => c.slug === slug);
-  return category?.icon ?? '';
-}
 
 // ---------------------------------------------------------------------------
 // MobileMenu
@@ -176,40 +164,6 @@ export function MobileMenu() {
                     <ChevronRight className="w-4 h-4 text-gray-400" />
                   </Link>
                 ))}
-              </div>
-
-              {/* Divider */}
-              <div className="h-px bg-gray-200 dark:bg-dark-border mx-4" />
-
-              {/* Categories */}
-              <div className="px-2 py-3">
-                <div className="px-3 pb-1">
-                  <span className="text-[11px] font-heading font-semibold uppercase tracking-wider text-gray-400 dark:text-gray-500">
-                    Categories
-                  </span>
-                </div>
-                {categoryNav.map((item, index) => {
-                  const icon = getCategoryIcon(item.href);
-                  return (
-                    <Link
-                      key={`cat-${index}-${item.href}`}
-                      href={item.href}
-                      className={cn(
-                        'flex items-center justify-between px-3 py-2.5 rounded-lg',
-                        'text-sm transition-colors',
-                        pathname === item.href
-                          ? 'bg-brand-red/10 text-brand-red font-semibold'
-                          : 'text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-dark-border',
-                      )}
-                    >
-                      <span className="flex items-center gap-3">
-                        {icon && <span className="text-base w-6 text-center" aria-hidden="true">{icon}</span>}
-                        <span>{item.label}</span>
-                      </span>
-                      <ChevronRight className="w-4 h-4 text-gray-400" />
-                    </Link>
-                  );
-                })}
               </div>
 
               {/* Divider */}

@@ -11,16 +11,13 @@ import {
   Sun,
   Moon,
   Menu,
-  User,
   Clock,
-  ChevronDown,
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { getTimeUntilMidnight, padZero } from '@/lib/utils';
 import { useCartStore, selectTotalItems } from '@/store/cart-store';
 import { useWishlistStore, selectWishlistCount } from '@/store/wishlist-store';
 import { useUIStore } from '@/store/ui-store';
-import { headerNav } from '@/data/navigation';
 
 // ---------------------------------------------------------------------------
 // Logo
@@ -174,35 +171,22 @@ export function Header() {
       )}
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16 gap-4">
-          {/* -- Left: Hamburger (mobile) + Logo -- */}
-          <div className="flex items-center gap-3">
+        <div className="flex items-center justify-between h-16 gap-3">
+          {/* -- Left: Hamburger + Logo -- */}
+          <div className="flex items-center gap-3 shrink-0">
             <button
               type="button"
               onClick={toggleMobileMenu}
               aria-label="Open navigation menu"
-              className="lg:hidden p-2 rounded-full text-gray-300 hover:text-white hover:bg-white/10 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-blue"
+              className="p-2 rounded-full text-gray-300 hover:text-white hover:bg-white/10 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-blue"
             >
               <Menu className="w-5 h-5" />
             </button>
             <Logo />
           </div>
 
-          {/* -- Primary Nav Links (desktop) -- */}
-          <nav className="hidden lg:flex items-center gap-1" aria-label="Primary navigation">
-            {headerNav.map((item) => (
-              <Link
-                key={item.label}
-                href={item.href}
-                className="px-3 py-1.5 text-sm font-bold text-white hover:text-brand-red transition-colors whitespace-nowrap"
-              >
-                {item.label}
-              </Link>
-            ))}
-          </nav>
-
-          {/* -- Center: Search Bar (desktop) -- */}
-          <div className="hidden md:flex flex-1 max-w-md mx-4">
+          {/* -- Center: Search Bar (visible md+) -- */}
+          <div className="hidden md:flex flex-1 max-w-2xl mx-4">
             <button
               type="button"
               onClick={openSearch}
@@ -221,10 +205,10 @@ export function Header() {
           </div>
 
           {/* -- Right: Actions -- */}
-          <div className="flex items-center gap-1 sm:gap-2">
+          <div className="flex items-center gap-1 sm:gap-2 shrink-0">
             <CountdownTimer />
 
-            {/* Search icon (mobile) */}
+            {/* Search icon (mobile only) */}
             <IconButton
               onClick={openSearch}
               label="Search deals"
@@ -255,16 +239,6 @@ export function Header() {
             >
               <ShoppingCart className="w-5 h-5" />
             </IconButton>
-
-            {/* Account (desktop) */}
-            <Link
-              href="/account"
-              className="hidden lg:flex items-center gap-1.5 pl-3 ml-2 border-l border-gray-700 text-gray-300 hover:text-white transition-colors"
-            >
-              <User className="w-5 h-5" />
-              <span className="text-sm font-medium">My Account</span>
-              <ChevronDown className="w-3.5 h-3.5" />
-            </Link>
           </div>
         </div>
       </div>

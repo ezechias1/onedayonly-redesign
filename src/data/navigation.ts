@@ -30,7 +30,7 @@ export const headerNav: NavItem[] = [
   },
   {
     label: 'Clearance',
-    href: '/category/extra-time-deals',
+    href: '/clearance',
     badge: 'HOT',
   },
 ];
