@@ -35,9 +35,9 @@ function TrustIndicators() {
 
   return (
     <div className="flex flex-wrap gap-4">
-      {indicators.map(({ icon: Icon, text }) => (
+      {indicators.map(({ icon: Icon, text }, i) => (
         <div
-          key={text}
+          key={`indicator-${i}`}
           className="flex items-center gap-1.5 text-xs text-gray-500 dark:text-gray-400"
         >
           <Icon className="h-3.5 w-3.5 text-brand-blue" />

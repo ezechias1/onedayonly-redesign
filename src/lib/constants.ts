@@ -152,9 +152,9 @@ export interface NavLink {
 
 export const NAV_LINKS: NavLink[] = [
   { name: "Today's Deals", href: "/" },
-  { name: "All Deals", href: "/deals" },
-  { name: "Categories", href: "/categories" },
-  { name: "How It Works", href: "/how-it-works" },
+  { name: "All Deals", href: "/" },
+  { name: "Categories", href: "/" },
+  { name: "How It Works", href: "/about" },
 ] as const;
 
 /** Footer link groups */
@@ -168,16 +168,16 @@ export const FOOTER_LINKS: FooterLinkGroup[] = [
     title: "Shop",
     links: [
       { name: "Today's Deals", href: "/" },
-      { name: "All Deals", href: "/deals" },
-      { name: "Categories", href: "/categories" },
+      { name: "All Deals", href: "/" },
+      { name: "Categories", href: "/" },
     ],
   },
   {
     title: "Help",
     links: [
-      { name: "How It Works", href: "/how-it-works" },
-      { name: "Delivery Info", href: "/delivery" },
-      { name: "Returns & Refunds", href: "/returns" },
+      { name: "How It Works", href: "/about" },
+      { name: "Delivery Info", href: "/info/shipping" },
+      { name: "Returns & Refunds", href: "/info/returns" },
       { name: "FAQ", href: "/faq" },
     ],
   },
@@ -186,16 +186,16 @@ export const FOOTER_LINKS: FooterLinkGroup[] = [
     links: [
       { name: "About Us", href: "/about" },
       { name: "Contact", href: "/contact" },
-      { name: "Careers", href: "/careers" },
-      { name: "Press", href: "/press" },
+      { name: "Careers", href: "/about" },
+      { name: "Press", href: "/about" },
     ],
   },
   {
     title: "Legal",
     links: [
-      { name: "Terms & Conditions", href: "/terms" },
-      { name: "Privacy Policy", href: "/privacy" },
-      { name: "Cookie Policy", href: "/cookies" },
+      { name: "Terms & Conditions", href: "/info/terms" },
+      { name: "Privacy Policy", href: "/info/privacy" },
+      { name: "Cookie Policy", href: "/info/cookies" },
     ],
   },
 ] as const;

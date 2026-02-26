@@ -15,29 +15,6 @@ export const DrawerTrigger = Dialog.Trigger;
 export const DrawerClose = Dialog.Close;
 
 // ---------------------------------------------------------------------------
-// Overlay
-// ---------------------------------------------------------------------------
-
-const DrawerOverlayInner = forwardRef<
-  HTMLDivElement,
-  Dialog.DialogOverlayProps
->(function DrawerOverlayInner({ className, ...props }, ref) {
-  return (
-    <Dialog.Overlay ref={ref} asChild {...props}>
-      <motion.div
-        className={cn("fixed inset-0 z-50 bg-black/60 backdrop-blur-sm", className)}
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        exit={{ opacity: 0 }}
-        transition={{ duration: 0.2 }}
-      />
-    </Dialog.Overlay>
-  );
-});
-
-export const DrawerOverlay = DrawerOverlayInner;
-
-// ---------------------------------------------------------------------------
 // Content
 // ---------------------------------------------------------------------------
 
@@ -81,59 +58,65 @@ export const DrawerContent = forwardRef<HTMLDivElement, DrawerContentProps>(
     const variants = slideVariants[side];
 
     return (
-      <Dialog.Portal forceMount>
-        <AnimatePresence>
-          <DrawerOverlay />
-          <Dialog.Content ref={ref} asChild {...props}>
-            <motion.div
-              className={cn(
-                "fixed top-0 z-50 h-full",
-                side === "left" ? "left-0" : "right-0",
-                width,
-                "max-w-[90vw]",
-                "bg-white dark:bg-dark-surface",
-                "border-gray-200 dark:border-dark-border",
-                side === "left" ? "border-r" : "border-l",
-                "shadow-2xl",
-                "flex flex-col",
-                "focus:outline-none",
-                className,
-              )}
-              initial={variants.initial}
-              animate={variants.animate}
-              exit={variants.exit}
-              transition={{ type: "spring", damping: 30, stiffness: 300 }}
-            >
-              {/* Header with close button */}
-              {showClose && (
-                <div
+      <Dialog.Portal>
+        <Dialog.Overlay asChild>
+          <motion.div
+            className="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.2 }}
+          />
+        </Dialog.Overlay>
+        <Dialog.Content ref={ref} asChild {...props}>
+          <motion.div
+            className={cn(
+              "fixed top-0 z-50 h-full",
+              side === "left" ? "left-0" : "right-0",
+              width,
+              "max-w-[90vw]",
+              "bg-white dark:bg-dark-surface",
+              "border-gray-200 dark:border-dark-border",
+              side === "left" ? "border-r" : "border-l",
+              "shadow-2xl",
+              "flex flex-col",
+              "focus:outline-none",
+              className,
+            )}
+            initial={variants.initial}
+            animate={variants.animate}
+            exit={variants.exit}
+            transition={{ type: "spring", damping: 30, stiffness: 300 }}
+          >
+            {/* Header with close button */}
+            {showClose && (
+              <div
+                className={cn(
+                  "flex items-center justify-end p-4",
+                  side === "left" && "flex-row-reverse",
+                )}
+              >
+                <Dialog.Close
                   className={cn(
-                    "flex items-center justify-end p-4",
-                    side === "left" && "flex-row-reverse",
+                    "inline-flex h-8 w-8 items-center justify-center rounded-full",
+                    "text-gray-400 hover:text-gray-600 dark:text-gray-500 dark:hover:text-gray-300",
+                    "hover:bg-gray-100 dark:hover:bg-dark-border",
+                    "transition-colors duration-150",
+                    "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-blue",
                   )}
+                  aria-label="Close drawer"
                 >
-                  <Dialog.Close
-                    className={cn(
-                      "inline-flex h-8 w-8 items-center justify-center rounded-full",
-                      "text-gray-400 hover:text-gray-600 dark:text-gray-500 dark:hover:text-gray-300",
-                      "hover:bg-gray-100 dark:hover:bg-dark-border",
-                      "transition-colors duration-150",
-                      "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-blue",
-                    )}
-                    aria-label="Close drawer"
-                  >
-                    <X className="h-4 w-4" />
-                  </Dialog.Close>
-                </div>
-              )}
-
-              {/* Body */}
-              <div className="flex-1 overflow-y-auto px-4 pb-4">
-                {children}
+                  <X className="h-4 w-4" />
+                </Dialog.Close>
               </div>
-            </motion.div>
-          </Dialog.Content>
-        </AnimatePresence>
+            )}
+
+            {/* Body */}
+            <div className="flex-1 overflow-y-auto px-4 pb-4">
+              {children}
+            </div>
+          </motion.div>
+        </Dialog.Content>
       </Dialog.Portal>
     );
   },
@@ -208,7 +191,6 @@ export const Drawer = {
   Trigger: DrawerTrigger,
   Close: DrawerClose,
   Content: DrawerContent,
-  Overlay: DrawerOverlay,
   Title: DrawerTitle,
   Description: DrawerDescription,
 };

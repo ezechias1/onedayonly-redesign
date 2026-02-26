@@ -265,9 +265,9 @@ export default function SellWithUsPage() {
           </p>
 
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            {benefits.map((b) => (
+            {benefits.map((b, i) => (
               <div
-                key={b.title}
+                key={`benefit-${i}`}
                 className="rounded-card bg-gray-50 dark:bg-dark-surface p-6 text-center transition-shadow hover:shadow-lg"
               >
                 <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-brand-red/10 text-brand-red">
@@ -298,7 +298,7 @@ export default function SellWithUsPage() {
           <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
             {steps.map((step, i) => (
               <div
-                key={step.title}
+                key={`step-${i}`}
                 className="relative rounded-card bg-white dark:bg-dark-bg p-6 text-center shadow-sm"
               >
                 {/* Step number */}
@@ -445,8 +445,8 @@ export default function SellWithUsPage() {
                       onChange={handleChange}
                       className={inputClasses}
                     >
-                      {productCategories.map((cat) => (
-                        <option key={cat} value={cat}>
+                      {productCategories.map((cat, i) => (
+                        <option key={`cat-${i}`} value={cat}>
                           {cat}
                         </option>
                       ))}

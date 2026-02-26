@@ -37,7 +37,7 @@ export function FeaturedDeals() {
             Today&apos;s Hottest Deals
           </h2>
           <Link
-            href="/deals"
+            href="/"
             className={cn(
               "hidden sm:inline-flex items-center gap-1",
               "text-sm font-semibold text-brand-red",
@@ -61,7 +61,7 @@ export function FeaturedDeals() {
         <div className="mt-8 flex justify-center sm:hidden">
           <Button
             as="a"
-            href="/deals"
+            href="/"
             variant="primary"
             size="md"
             rightIcon={<ArrowRight className="h-4 w-4" />}
@@ -74,7 +74,7 @@ export function FeaturedDeals() {
         <div className="mt-8 hidden sm:flex justify-center">
           <Button
             as="a"
-            href="/deals"
+            href="/"
             variant="outline"
             size="md"
             rightIcon={<ArrowRight className="h-4 w-4" />}

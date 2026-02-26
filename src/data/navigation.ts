@@ -22,7 +22,7 @@ export const headerNav: NavItem[] = [
   },
   {
     label: 'Categories',
-    href: '/categories',
+    href: '/',
     children: [
       { label: 'Electronics', href: '/category/electronics' },
       { label: 'Home & Garden', href: '/category/home-and-garden' },
@@ -49,7 +49,7 @@ export const headerNav: NavItem[] = [
   },
   {
     label: 'How It Works',
-    href: '/how-it-works',
+    href: '/about',
   },
 ];
 
@@ -80,9 +80,9 @@ export const footerSections: FooterSection[] = [
     links: [
       { label: "Today's Deals", href: '/' },
       { label: 'Extra Time Deals', href: '/category/extra-time-deals' },
-      { label: 'All Categories', href: '/categories' },
-      { label: 'Best Sellers', href: '/best-sellers' },
-      { label: 'New Arrivals', href: '/new-arrivals' },
+      { label: 'All Categories', href: '/' },
+      { label: 'Best Sellers', href: '/' },
+      { label: 'New Arrivals', href: '/' },
     ],
   },
   {
@@ -90,8 +90,8 @@ export const footerSections: FooterSection[] = [
     links: [
       { label: 'FAQ', href: '/faq' },
       { label: 'Contact Us', href: '/contact' },
-      { label: 'Shipping & Delivery', href: '/shipping' },
-      { label: 'Returns & Refunds', href: '/returns' },
+      { label: 'Shipping & Delivery', href: '/info/shipping' },
+      { label: 'Returns & Refunds', href: '/info/returns' },
       { label: 'Track My Order', href: '/track-order' },
     ],
   },
@@ -99,19 +99,19 @@ export const footerSections: FooterSection[] = [
     title: 'About',
     links: [
       { label: 'About OneDayOnly', href: '/about' },
-      { label: 'How It Works', href: '/how-it-works' },
-      { label: 'Careers', href: '/careers' },
-      { label: 'Press', href: '/press' },
+      { label: 'How It Works', href: '/about' },
+      { label: 'Careers', href: '/about' },
+      { label: 'Press', href: '/about' },
       { label: 'Sell on OneDayOnly', href: '/sell-with-us' },
     ],
   },
   {
     title: 'Legal',
     links: [
-      { label: 'Terms & Conditions', href: '/terms' },
-      { label: 'Privacy Policy', href: '/privacy' },
-      { label: 'Cookie Policy', href: '/cookies' },
-      { label: 'POPIA Compliance', href: '/popia' },
+      { label: 'Terms & Conditions', href: '/info/terms' },
+      { label: 'Privacy Policy', href: '/info/privacy' },
+      { label: 'Cookie Policy', href: '/info/cookies' },
+      { label: 'POPIA Compliance', href: '/info/popia' },
     ],
   },
 ];

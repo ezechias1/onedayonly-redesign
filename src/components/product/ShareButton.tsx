@@ -150,9 +150,9 @@ export function ShareButton({ url, title, className }: ShareButtonProps) {
           </div>
 
           <div className="py-1">
-            {shareOptions.map((opt) => (
+            {shareOptions.map((opt, i) => (
               <a
-                key={opt.label}
+                key={`share-${i}`}
                 href={opt.href}
                 target="_blank"
                 rel="noopener noreferrer"

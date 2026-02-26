@@ -137,9 +137,9 @@ function FilterForm({
           </legend>
 
           <div className="mt-2 flex max-h-48 flex-col gap-1.5 overflow-y-auto">
-            {availableBrands.map((brand) => (
+            {availableBrands.map((brand, brandIndex) => (
               <label
-                key={brand.name}
+                key={`${brandIndex}-${brand.name}`}
                 className="flex cursor-pointer items-center gap-2 rounded-md px-1.5 py-1 text-sm hover:bg-gray-50 dark:hover:bg-dark-surface"
               >
                 <input

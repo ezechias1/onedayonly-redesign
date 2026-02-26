@@ -114,8 +114,8 @@ export function Footer() {
                 {section.title}
               </h4>
               <ul className="space-y-2.5">
-                {section.links.map((link) => (
-                  <li key={link.href}>
+                {section.links.map((link, linkIndex) => (
+                  <li key={`${section.title}-${linkIndex}-${link.href}`}>
                     <Link
                       href={link.href}
                       className="text-sm text-gray-400 hover:text-white transition-colors duration-200 inline-block"
@@ -176,13 +176,17 @@ export function Footer() {
               <Smartphone className="w-5 h-5 text-gray-500" aria-hidden="true" />
               <div className="flex gap-2">
                 <a
-                  href="#"
+                  href="https://apps.apple.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="px-3 py-1.5 text-xs font-semibold text-gray-300 bg-gray-800 hover:bg-gray-700 rounded-md border border-gray-700 transition-colors"
                 >
                   App Store
                 </a>
                 <a
-                  href="#"
+                  href="https://play.google.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="px-3 py-1.5 text-xs font-semibold text-gray-300 bg-gray-800 hover:bg-gray-700 rounded-md border border-gray-700 transition-colors"
                 >
                   Google Play
@@ -201,16 +205,16 @@ export function Footer() {
               &copy; {new Date().getFullYear()} {SITE_NAME}. All rights reserved.
             </p>
             <div className="flex items-center gap-4 text-xs text-gray-500">
-              <Link href="/terms" className="hover:text-white transition-colors">
+              <Link href="/info/terms" className="hover:text-white transition-colors">
                 Terms
               </Link>
-              <Link href="/privacy" className="hover:text-white transition-colors">
+              <Link href="/info/privacy" className="hover:text-white transition-colors">
                 Privacy
               </Link>
-              <Link href="/cookies" className="hover:text-white transition-colors">
+              <Link href="/info/cookies" className="hover:text-white transition-colors">
                 Cookies
               </Link>
-              <Link href="/popia" className="hover:text-white transition-colors">
+              <Link href="/info/popia" className="hover:text-white transition-colors">
                 POPIA
               </Link>
             </div>

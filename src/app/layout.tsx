@@ -6,6 +6,7 @@ import { CategoryNav } from "@/components/layout/CategoryNav";
 import { Footer } from "@/components/layout/Footer";
 import { AnnouncementBar } from "@/components/layout/AnnouncementBar";
 import { BackToTop } from "@/components/layout/BackToTop";
+import { MobileMenu } from "@/components/layout/MobileMenu";
 import { CartDrawer } from "@/components/cart/CartDrawer";
 import { SearchModal } from "@/components/search/SearchModal";
 import "./globals.css";
@@ -107,6 +108,7 @@ export default function RootLayout({
           <main className="min-h-screen">{children}</main>
           <Footer />
           <BackToTop />
+          <MobileMenu />
           <CartDrawer />
           <SearchModal />
         </Providers>

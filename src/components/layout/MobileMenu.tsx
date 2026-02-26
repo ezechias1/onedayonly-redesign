@@ -153,9 +153,9 @@ export function MobileMenu() {
                     Navigate
                   </span>
                 </div>
-                {headerNav.map((item) => (
+                {headerNav.map((item, index) => (
                   <Link
-                    key={item.href}
+                    key={`nav-${index}-${item.href}`}
                     href={item.href}
                     className={cn(
                       'flex items-center justify-between px-3 py-3 rounded-lg',
@@ -188,11 +188,11 @@ export function MobileMenu() {
                     Categories
                   </span>
                 </div>
-                {categoryNav.map((item) => {
+                {categoryNav.map((item, index) => {
                   const icon = getCategoryIcon(item.href);
                   return (
                     <Link
-                      key={item.href}
+                      key={`cat-${index}-${item.href}`}
                       href={item.href}
                       className={cn(
                         'flex items-center justify-between px-3 py-2.5 rounded-lg',

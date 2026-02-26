@@ -11,7 +11,7 @@ export const banners: Banner[] = [
     subtitle: 'So nice, we had to deal it twice. Top deals brought back by popular demand.',
     ctaText: 'Shop Extra Time Deals',
     ctaLink: '/category/extra-time-deals',
-    image: 'https://picsum.photos/seed/banner-encore/1440/520',
+    image: 'https://placehold.co/1440x520/1a1a2e/e94560/png?text=AnotherDayOnly%0ABack+by+Popular+Demand&font=montserrat',
     backgroundColor: '#1a1a2e',
   },
   {
@@ -20,7 +20,7 @@ export const banners: Banner[] = [
     subtitle: 'Bose, JBL, Samsung and more at prices that won\'t last. Today only.',
     ctaText: 'Shop Electronics',
     ctaLink: '/category/electronics',
-    image: 'https://picsum.photos/seed/banner-flash/1440/520',
+    image: 'https://placehold.co/1440x520/e63946/ffffff/png?text=Flash+Sale%0AUp+to+80%25+Off+Electronics&font=montserrat',
     backgroundColor: '#e63946',
   },
   {
@@ -29,7 +29,7 @@ export const banners: Banner[] = [
     subtitle: 'Discover today\'s hand-picked deals across fashion, tech, home, and more.',
     ctaText: 'See What\'s New',
     ctaLink: '/',
-    image: 'https://picsum.photos/seed/banner-new/1440/520',
+    image: 'https://placehold.co/1440x520/457b9d/ffffff/png?text=New+Arrivals%0AFresh+Deals+Every+Day&font=montserrat',
     backgroundColor: '#457b9d',
   },
   {
@@ -38,7 +38,7 @@ export const banners: Banner[] = [
     subtitle: 'Stock up and save — free standard shipping anywhere in South Africa.',
     ctaText: 'Start Shopping',
     ctaLink: '/',
-    image: 'https://picsum.photos/seed/banner-delivery/1440/520',
+    image: 'https://placehold.co/1440x520/2a9d8f/ffffff/png?text=Free+Delivery%0AOn+Orders+Over+R500&font=montserrat',
     backgroundColor: '#2a9d8f',
   },
 ];

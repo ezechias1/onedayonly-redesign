@@ -280,8 +280,8 @@ export default function ContactPage() {
                         onChange={handleChange}
                         className={inputClasses}
                       >
-                        {categories.map((cat) => (
-                          <option key={cat} value={cat}>
+                        {categories.map((cat, i) => (
+                          <option key={`cat-${i}`} value={cat}>
                             {cat}
                           </option>
                         ))}
@@ -363,9 +363,9 @@ export default function ContactPage() {
                   Follow Us
                 </h3>
                 <div className="flex items-center gap-3">
-                  {socialLinks.map((s) => (
+                  {socialLinks.map((s, i) => (
                     <Link
-                      key={s.label}
+                      key={`social-${i}`}
                       href={s.href}
                       target="_blank"
                       rel="noopener noreferrer"

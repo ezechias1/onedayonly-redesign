@@ -145,7 +145,7 @@ export default function AboutPage() {
           <div className="mt-12 grid gap-8 sm:grid-cols-3">
             {howItWorks.map((step, i) => (
               <div
-                key={step.title}
+                key={`step-${i}`}
                 className="group relative rounded-card bg-gray-50 dark:bg-dark-surface p-8 text-center transition-shadow hover:shadow-lg"
               >
                 {/* Step number */}
@@ -176,9 +176,9 @@ export default function AboutPage() {
           </h2>
 
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            {benefits.map((b) => (
+            {benefits.map((b, i) => (
               <div
-                key={b.text}
+                key={`benefit-${i}`}
                 className="flex items-start gap-4 rounded-card bg-white dark:bg-dark-bg p-6 shadow-sm transition-shadow hover:shadow-md"
               >
                 <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-brand-red/10 text-brand-red">
@@ -197,8 +197,8 @@ export default function AboutPage() {
       <section className="bg-gray-900 py-14">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 gap-8 sm:grid-cols-4">
-            {stats.map((s) => (
-              <div key={s.label} className="text-center">
+            {stats.map((s, i) => (
+              <div key={`stat-${i}`} className="text-center">
                 <s.icon className="mx-auto h-7 w-7 text-brand-red" />
                 <p className="mt-3 font-heading text-3xl sm:text-4xl font-black text-white">
                   {s.value}
@@ -269,9 +269,9 @@ export default function AboutPage() {
             Stay in the loop for the latest deals and updates.
           </p>
           <div className="mt-6 flex items-center justify-center gap-4">
-            {socialLinks.map((s) => (
+            {socialLinks.map((s, i) => (
               <Link
-                key={s.label}
+                key={`social-${i}`}
                 href={s.href}
                 target="_blank"
                 rel="noopener noreferrer"
