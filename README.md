@@ -1,4 +1,10 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# OneDayOnly Redesign
+
+A modern redesign of [OneDayOnly.co.za](https://www.onedayonly.co.za) — South Africa's leading daily deals site.
+
+**Live Demo:** [https://onedayonly-redesign.vercel.app/](https://onedayonly-redesign.vercel.app/)
+
+> This is a demo site — no real transactions are processed.
 
 ## Getting Started
 
