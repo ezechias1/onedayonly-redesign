@@ -3,7 +3,6 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
 import {
   Lock,
@@ -13,8 +12,9 @@ import {
   ShieldCheck,
   RotateCcw,
   Check,
+  AlertTriangle,
+  X,
 } from "lucide-react";
-import { toast } from "sonner";
 import { cn } from "@/lib/utils";
 import { formatPrice } from "@/lib/utils";
 import { Button } from "@/components/ui/Button";
@@ -44,12 +44,10 @@ const breadcrumbItems = [
 // ---------------------------------------------------------------------------
 
 export default function CheckoutPage() {
-  const router = useRouter();
   const items = useCartStore((s) => s.items);
   const totalItems = useCartStore(selectTotalItems);
   const subtotal = useCartStore(selectSubtotal);
   const totalSavings = useCartStore(selectTotalSavings);
-  const clearCart = useCartStore((s) => s.clearCart);
 
   const isFreeShipping = subtotal >= FREE_SHIPPING_THRESHOLD;
   const shipping = isFreeShipping ? 0 : SHIPPING_COST;
@@ -75,7 +73,7 @@ export default function CheckoutPage() {
   });
 
   const [step, setStep] = useState<"details" | "payment">("details");
-  const [isPlacing, setIsPlacing] = useState(false);
+  const [showDemoModal, setShowDemoModal] = useState(false);
 
   function updateField(field: string, value: string) {
     setFormData((prev) => ({ ...prev, [field]: value }));
@@ -83,12 +81,7 @@ export default function CheckoutPage() {
 
   function handlePlaceOrder(e: React.FormEvent) {
     e.preventDefault();
-    setIsPlacing(true);
-    setTimeout(() => {
-      clearCart();
-      toast.success("Order placed successfully! Thank you for shopping with OneDayOnly.");
-      router.push("/");
-    }, 1500);
+    setShowDemoModal(true);
   }
 
   if (isEmpty) {
@@ -438,16 +431,8 @@ export default function CheckoutPage() {
                     variant="primary"
                     size="lg"
                     className="w-full"
-                    disabled={isPlacing}
                   >
-                    {isPlacing ? (
-                      <span className="flex items-center gap-2">
-                        <span className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" />
-                        Processing...
-                      </span>
-                    ) : (
-                      `Pay ${formatPrice(orderTotal)}`
-                    )}
+                    Pay {formatPrice(orderTotal)}
                   </Button>
 
                   <button
@@ -572,6 +557,68 @@ export default function CheckoutPage() {
           </div>
         </motion.div>
       </div>
+
+      {/* Demo Site Modal */}
+      {showDemoModal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
+          {/* Backdrop */}
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            className="absolute inset-0 bg-black/60 backdrop-blur-sm"
+            onClick={() => setShowDemoModal(false)}
+          />
+
+          {/* Modal */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9, y: 20 }}
+            animate={{ opacity: 1, scale: 1, y: 0 }}
+            transition={{ type: "spring", stiffness: 300, damping: 25 }}
+            className="relative z-10 w-full max-w-md bg-white dark:bg-dark-surface rounded-card border border-gray-200 dark:border-dark-border shadow-2xl p-8 text-center"
+          >
+            {/* Close button */}
+            <button
+              type="button"
+              onClick={() => setShowDemoModal(false)}
+              className="absolute top-3 right-3 p-1.5 rounded-full text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 hover:bg-gray-100 dark:hover:bg-dark-border transition-colors"
+              aria-label="Close"
+            >
+              <X className="w-4 h-4" />
+            </button>
+
+            {/* Icon */}
+            <div className="flex items-center justify-center w-16 h-16 mx-auto mb-5 rounded-full bg-amber-100 dark:bg-amber-900/30">
+              <AlertTriangle className="w-8 h-8 text-amber-500" />
+            </div>
+
+            {/* Title */}
+            <h2 className="font-heading text-xl font-bold text-gray-900 dark:text-white mb-3">
+              This is just a demo site
+            </h2>
+
+            {/* Message */}
+            <p className="text-sm text-gray-500 dark:text-gray-400 mb-6 leading-relaxed">
+              No real transactions can be processed on this site. This is a redesign showcase for OneDayOnly.co.za. No payment details are collected or stored.
+            </p>
+
+            {/* Actions */}
+            <div className="flex flex-col gap-3">
+              <Link href="/">
+                <Button variant="primary" size="lg" className="w-full">
+                  Back to Home
+                </Button>
+              </Link>
+              <button
+                type="button"
+                onClick={() => setShowDemoModal(false)}
+                className="text-sm text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 transition-colors"
+              >
+                Continue browsing checkout
+              </button>
+            </div>
+          </motion.div>
+        </div>
+      )}
     </div>
   );
 }
