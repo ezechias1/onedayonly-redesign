@@ -2,8 +2,10 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { Eye, EyeOff, Mail, Lock, ArrowRight, Chrome } from "lucide-react";
 import { motion } from "framer-motion";
+import { toast } from "sonner";
 import { cn } from "@/lib/utils";
 import { SITE_NAME } from "@/lib/constants";
 
@@ -18,9 +20,25 @@ export default function LoginPage() {
   const [password, setPassword] = useState("");
   const [name, setName] = useState("");
 
+  const router = useRouter();
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Demo only — no real auth
+    if (isLogin) {
+      if (!email || !password) {
+        toast.error("Please fill in all fields");
+        return;
+      }
+      toast.success("Welcome back! Redirecting...");
+      setTimeout(() => router.push("/account"), 1000);
+    } else {
+      if (!name || !email || !password) {
+        toast.error("Please fill in all fields");
+        return;
+      }
+      toast.success("Account created! Redirecting...");
+      setTimeout(() => router.push("/account"), 1000);
+    }
   };
 
   return (

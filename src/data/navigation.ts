@@ -14,42 +14,24 @@ export interface FooterSection {
   links: { label: string; href: string }[];
 }
 
-// ── Header navigation ──────────────────────────────────────────
+// ── Header navigation (matches real OneDayOnly top-level links) ──
 export const headerNav: NavItem[] = [
   {
     label: "Today's Deals",
     href: '/',
   },
   {
-    label: 'Categories',
-    href: '/',
-    children: [
-      { label: 'Electronics', href: '/category/electronics' },
-      { label: 'Home & Garden', href: '/category/home-and-garden' },
-      { label: 'Apparel & Accessories', href: '/category/apparel-and-accessories' },
-      { label: 'Health & Beauty', href: '/category/health-and-beauty' },
-      { label: 'Shoes', href: '/category/shoes' },
-      { label: 'Furniture', href: '/category/furniture' },
-      { label: 'Sporting Goods', href: '/category/sporting-goods' },
-      { label: 'Food & Beverages', href: '/category/food-and-beverages' },
-      { label: 'Luggage & Bags', href: '/category/luggage-and-bags' },
-      { label: 'Hardware', href: '/category/hardware' },
-      { label: 'Baby & Toddler', href: '/category/baby-and-toddler' },
-      { label: 'Toys & Games', href: '/category/toys-and-games' },
-      { label: 'Animals & Pet Supplies', href: '/category/animals-and-pet-supplies' },
-      { label: 'Business & Industrial', href: '/category/business-and-industrial' },
-      { label: 'Media', href: '/category/media' },
-      { label: 'Extra Time Deals', href: '/category/extra-time-deals', badge: 'HOT' },
-    ],
+    label: 'Extra Time Deals',
+    href: '/category/extra-time-deals',
   },
   {
-    label: 'Extra Time',
+    label: 'Everyday Essentials',
+    href: '/category/home-and-garden',
+  },
+  {
+    label: 'Clearance',
     href: '/category/extra-time-deals',
     badge: 'HOT',
-  },
-  {
-    label: 'How It Works',
-    href: '/about',
   },
 ];
 

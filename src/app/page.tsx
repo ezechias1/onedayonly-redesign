@@ -1,10 +1,6 @@
 import { HeroCarousel } from "@/components/home/HeroCarousel";
-import { CountdownTimer } from "@/components/home/CountdownTimer";
-import { CategoryShowcase } from "@/components/home/CategoryShowcase";
-import { FeaturedDeals } from "@/components/home/FeaturedDeals";
-import { TrustBar } from "@/components/home/TrustBar";
-import { TrendingDeals } from "@/components/home/TrendingDeals";
-import { NewsletterSignup } from "@/components/home/NewsletterSignup";
+import { TopProductsRow } from "@/components/home/TopProductsRow";
+import { BrandDealFeed } from "@/components/home/BrandDealFeed";
 
 // ---------------------------------------------------------------------------
 // Page metadata
@@ -24,13 +20,9 @@ export const metadata = {
  * Homepage assembling all home section components.
  *
  * Layout order:
- * 1. HeroCarousel   – full-width banner carousel
- * 2. CountdownTimer  – deal expiry countdown strip
- * 3. CategoryShowcase – horizontal category cards
- * 4. FeaturedDeals   – top-discount product grid
- * 5. TrustBar        – value proposition strip
- * 6. TrendingDeals   – trending products carousel
- * 7. NewsletterSignup – email subscription CTA
+ * 1. HeroCarousel    – full-width banner carousel
+ * 2. TopProductsRow  – horizontal carousel of today's top deals
+ * 3. BrandDealFeed   – brand-grouped deal sections with promo banners
  */
 export default function HomePage() {
   return (
@@ -38,23 +30,11 @@ export default function HomePage() {
       {/* Hero banner carousel */}
       <HeroCarousel />
 
-      {/* Countdown timer */}
-      <CountdownTimer />
+      {/* Top deals carousel */}
+      <TopProductsRow />
 
-      {/* Category showcase */}
-      <CategoryShowcase />
-
-      {/* Featured deals */}
-      <FeaturedDeals />
-
-      {/* Trust bar */}
-      <TrustBar />
-
-      {/* Trending deals carousel */}
-      <TrendingDeals />
-
-      {/* Newsletter signup */}
-      <NewsletterSignup />
+      {/* Brand-grouped deal sections with promo banners */}
+      <BrandDealFeed />
     </>
   );
 }

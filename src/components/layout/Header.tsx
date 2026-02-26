@@ -7,18 +7,20 @@ import { motion } from 'framer-motion';
 import {
   Search,
   Heart,
-  ShoppingBag,
+  ShoppingCart,
   Sun,
   Moon,
   Menu,
   User,
   Clock,
+  ChevronDown,
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { getTimeUntilMidnight, padZero } from '@/lib/utils';
 import { useCartStore, selectTotalItems } from '@/store/cart-store';
 import { useWishlistStore, selectWishlistCount } from '@/store/wishlist-store';
 import { useUIStore } from '@/store/ui-store';
+import { headerNav } from '@/data/navigation';
 
 // ---------------------------------------------------------------------------
 // Logo
@@ -37,7 +39,7 @@ function Logo() {
 }
 
 // ---------------------------------------------------------------------------
-// Countdown Timer
+// Countdown Timer (more prominent, visible on md+)
 // ---------------------------------------------------------------------------
 
 function CountdownTimer() {
@@ -60,12 +62,12 @@ function CountdownTimer() {
   }
 
   return (
-    <div className="hidden lg:flex items-center gap-2 text-sm">
+    <div className="hidden md:flex items-center gap-2">
       <Clock className="w-4 h-4 text-brand-red" aria-hidden="true" />
-      <span className="text-gray-400 uppercase text-xs font-heading font-semibold tracking-wide">
-        Deals expire in:
+      <span className="text-gray-400 uppercase text-[10px] font-heading font-semibold tracking-wider">
+        DEALS EXPIRE IN:
       </span>
-      <span className="font-heading font-bold text-white tabular-nums">
+      <span className="font-heading font-bold text-white text-base tabular-nums tracking-wide">
         {padZero(time.hours)}:{padZero(time.minutes)}:{padZero(time.seconds)}
       </span>
     </div>
@@ -173,7 +175,7 @@ export function Header() {
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 gap-4">
-          {/* ── Left: Hamburger (mobile) + Logo ── */}
+          {/* -- Left: Hamburger (mobile) + Logo -- */}
           <div className="flex items-center gap-3">
             <button
               type="button"
@@ -186,8 +188,21 @@ export function Header() {
             <Logo />
           </div>
 
-          {/* ── Center: Search Bar (desktop) ── */}
-          <div className="hidden md:flex flex-1 max-w-xl mx-4">
+          {/* -- Primary Nav Links (desktop) -- */}
+          <nav className="hidden lg:flex items-center gap-1" aria-label="Primary navigation">
+            {headerNav.map((item) => (
+              <Link
+                key={item.label}
+                href={item.href}
+                className="px-3 py-1.5 text-sm font-bold text-white hover:text-brand-red transition-colors whitespace-nowrap"
+              >
+                {item.label}
+              </Link>
+            ))}
+          </nav>
+
+          {/* -- Center: Search Bar (desktop) -- */}
+          <div className="hidden md:flex flex-1 max-w-md mx-4">
             <button
               type="button"
               onClick={openSearch}
@@ -205,7 +220,7 @@ export function Header() {
             </button>
           </div>
 
-          {/* ── Right: Actions ── */}
+          {/* -- Right: Actions -- */}
           <div className="flex items-center gap-1 sm:gap-2">
             <CountdownTimer />
 
@@ -238,16 +253,17 @@ export function Header() {
               label={`Shopping cart${totalItems > 0 ? ` (${totalItems} items)` : ''}`}
               badge={totalItems}
             >
-              <ShoppingBag className="w-5 h-5" />
+              <ShoppingCart className="w-5 h-5" />
             </IconButton>
 
             {/* Account (desktop) */}
             <Link
               href="/account"
-              className="hidden lg:flex items-center gap-2 pl-3 ml-2 border-l border-gray-700 text-gray-300 hover:text-white transition-colors"
+              className="hidden lg:flex items-center gap-1.5 pl-3 ml-2 border-l border-gray-700 text-gray-300 hover:text-white transition-colors"
             >
               <User className="w-5 h-5" />
               <span className="text-sm font-medium">My Account</span>
+              <ChevronDown className="w-3.5 h-3.5" />
             </Link>
           </div>
         </div>

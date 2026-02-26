@@ -5,3 +5,7 @@ export { FeaturedDeals } from "./FeaturedDeals";
 export { TrendingDeals } from "./TrendingDeals";
 export { NewsletterSignup } from "./NewsletterSignup";
 export { TrustBar } from "./TrustBar";
+export { TopProductsRow } from "./TopProductsRow";
+export { BrandDealSection } from "./BrandDealSection";
+export { BrandDealFeed } from "./BrandDealFeed";
+export { PromoBanner } from "./PromoBanner";

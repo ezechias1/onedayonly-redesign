@@ -8,7 +8,7 @@ import { cn } from '@/lib/utils';
 import { categories } from '@/data/categories';
 
 // ---------------------------------------------------------------------------
-// CategoryNav
+// CategoryNav — plain text links (no emojis), lowercase names
 // ---------------------------------------------------------------------------
 
 export function CategoryNav() {
@@ -17,7 +17,7 @@ export function CategoryNav() {
   const [canScrollLeft, setCanScrollLeft] = useState(false);
   const [canScrollRight, setCanScrollRight] = useState(false);
 
-  // ── Check scroll state ──
+  // -- Check scroll state --
   const checkScroll = useCallback(() => {
     const el = scrollRef.current;
     if (!el) return;
@@ -41,7 +41,7 @@ export function CategoryNav() {
     };
   }, [checkScroll]);
 
-  // ── Scroll handlers ──
+  // -- Scroll handlers --
   const scroll = (direction: 'left' | 'right') => {
     const el = scrollRef.current;
     if (!el) return;
@@ -53,7 +53,7 @@ export function CategoryNav() {
     });
   };
 
-  // ── Scroll active category into view on mount ──
+  // -- Scroll active category into view on mount --
   useEffect(() => {
     const el = scrollRef.current;
     if (!el) return;
@@ -118,19 +118,15 @@ export function CategoryNav() {
                 role="listitem"
                 data-active={isActive}
                 className={cn(
-                  'flex items-center gap-2 shrink-0',
-                  'px-3.5 py-2 rounded-pill',
-                  'text-sm font-medium whitespace-nowrap',
+                  'shrink-0 px-3 py-1.5',
+                  'text-sm whitespace-nowrap',
                   'transition-all duration-200',
                   isActive
-                    ? 'bg-brand-red/10 text-brand-red border-b-2 border-brand-red font-semibold'
-                    : 'text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-dark-border hover:text-black dark:hover:text-white',
+                    ? 'text-brand-red font-semibold border-b-2 border-brand-red'
+                    : 'text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white',
                 )}
               >
-                <span className="text-base" aria-hidden="true">
-                  {category.icon}
-                </span>
-                <span>{category.name}</span>
+                {category.name.toLowerCase()}
               </Link>
             );
           })}

@@ -14,7 +14,7 @@ export type { SkeletonProps, SkeletonVariant } from "./Skeleton";
 export { Modal, ModalRoot, ModalTrigger, ModalPortal, ModalClose, ModalOverlay, ModalContent, ModalTitle, ModalDescription } from "./Modal";
 export type { ModalContentProps } from "./Modal";
 
-export { Drawer, DrawerRoot, DrawerTrigger, DrawerClose, DrawerOverlay, DrawerContent, DrawerTitle, DrawerDescription } from "./Drawer";
+export { Drawer, DrawerRoot, DrawerTrigger, DrawerClose, DrawerContent, DrawerTitle, DrawerDescription } from "./Drawer";
 export type { DrawerContentProps, DrawerSide } from "./Drawer";
 
 export { Accordion, AccordionRoot, AccordionItem, AccordionTrigger, AccordionContent } from "./Accordion";

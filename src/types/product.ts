@@ -8,6 +8,7 @@ export interface Brand {
   name: string;
   slug: string;
   logo?: string;
+  featuredImage?: string;
 }
 
 /** A single product image asset */
@@ -89,7 +90,7 @@ export interface Category {
   name: string;
   slug: string;
   description: string;
-  icon: string;
+  icon?: string;
   image: string;
   dealCount: number;
   seoContent: string;

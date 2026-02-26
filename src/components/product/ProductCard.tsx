@@ -110,7 +110,7 @@ export function ProductCard({ product, className }: ProductCardProps) {
       onMouseLeave={() => setIsHovered(false)}
     >
       {/* ── Image Section ──────────────────────────────────────── */}
-      <div className="relative aspect-square overflow-hidden bg-gray-100 dark:bg-dark-border">
+      <div className="relative aspect-square overflow-hidden bg-white dark:bg-gray-900">
         <Image
           src={imageUrl}
           alt={imageAlt}
@@ -123,13 +123,16 @@ export function ProductCard({ product, className }: ProductCardProps) {
           )}
         />
 
-        {/* Discount badge - top left */}
+        {/* Discount badge + save label - top left */}
         {product.discountPercentage > 0 && (
-          <div className="absolute top-2 left-2 z-10">
+          <div className="absolute top-2 left-2 z-10 flex items-center gap-1">
             <DiscountBadge
               discount={product.discountPercentage}
               pulse={product.discountPercentage >= 70}
             />
+            <span className="text-[10px] font-bold text-brand-red bg-white/90 dark:bg-gray-900/90 backdrop-blur-sm rounded px-1 py-0.5 leading-none uppercase">
+              save
+            </span>
           </div>
         )}
 
@@ -248,7 +251,7 @@ export function ProductCard({ product, className }: ProductCardProps) {
       {/* ── Info Section ───────────────────────────────────────── */}
       <div className="flex flex-1 flex-col p-3">
         {/* Brand */}
-        <span className="text-[10px] font-medium uppercase tracking-wide text-gray-400 dark:text-gray-500 mb-0.5">
+        <span className="text-xs font-bold uppercase tracking-wide text-gray-500 dark:text-gray-400 mb-0.5">
           {product.brand.name}
         </span>
 

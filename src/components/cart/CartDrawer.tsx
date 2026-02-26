@@ -125,17 +125,17 @@ export function CartDrawer() {
                 )}
 
                 {/* Checkout Button */}
-                <Button
-                  variant="primary"
-                  size="lg"
-                  className="w-full mb-3"
-                  onClick={() => {
-                    closeDrawer();
-                    // Future: navigate to checkout
-                  }}
-                >
-                  Proceed to Checkout
-                </Button>
+                <Drawer.Close asChild>
+                  <Link href="/checkout">
+                    <Button
+                      variant="primary"
+                      size="lg"
+                      className="w-full mb-3"
+                    >
+                      Proceed to Checkout
+                    </Button>
+                  </Link>
+                </Drawer.Close>
 
                 {/* Continue Shopping */}
                 <Drawer.Close asChild>

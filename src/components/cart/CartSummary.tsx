@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import { Lock, RotateCcw, ShieldCheck, Tag } from "lucide-react";
 
 import { Button } from "@/components/ui/Button";
@@ -151,9 +152,11 @@ export function CartSummary() {
 
       {/* Checkout Button */}
       <div className="pt-4">
-        <Button variant="primary" size="lg" className="w-full">
-          Proceed to Checkout
-        </Button>
+        <Link href="/checkout">
+          <Button variant="primary" size="lg" className="w-full">
+            Proceed to Checkout
+          </Button>
+        </Link>
       </div>
 
       {/* Trust Badges */}

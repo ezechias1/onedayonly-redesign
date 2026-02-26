@@ -10,7 +10,7 @@ export const categories: Category[] = [
     name: 'Home & Garden',
     slug: 'home-and-garden',
     description: 'Transform your living space with unbeatable daily deals on homeware, decor, and garden essentials.',
-    icon: '🏠',
+
     image: 'https://picsum.photos/seed/home-and-garden/600/400',
     dealCount: 12,
     seoContent:
@@ -21,7 +21,6 @@ export const categories: Category[] = [
     name: 'Apparel & Accessories',
     slug: 'apparel-and-accessories',
     description: 'Stay stylish for less with deals on clothing, watches, jewellery, and accessories.',
-    icon: '👗',
     image: 'https://picsum.photos/seed/apparel-and-accessories/600/400',
     dealCount: 8,
     seoContent:
@@ -32,7 +31,6 @@ export const categories: Category[] = [
     name: 'Health & Beauty',
     slug: 'health-and-beauty',
     description: 'Look and feel your best with deals on supplements, grooming, skincare, and wellness.',
-    icon: '💆',
     image: 'https://picsum.photos/seed/health-and-beauty/600/400',
     dealCount: 6,
     seoContent:
@@ -43,7 +41,6 @@ export const categories: Category[] = [
     name: 'Food & Beverages',
     slug: 'food-and-beverages',
     description: 'Stock up on gourmet treats, coffee, snacks, and pantry essentials at deal prices.',
-    icon: '🍕',
     image: 'https://picsum.photos/seed/food-and-beverages/600/400',
     dealCount: 4,
     seoContent:
@@ -54,7 +51,6 @@ export const categories: Category[] = [
     name: 'Electronics',
     slug: 'electronics',
     description: 'Score big on headphones, speakers, gadgets, cables, and smart devices.',
-    icon: '📱',
     image: 'https://picsum.photos/seed/electronics/600/400',
     dealCount: 10,
     seoContent:
@@ -65,7 +61,6 @@ export const categories: Category[] = [
     name: 'Shoes',
     slug: 'shoes',
     description: 'Step into savings with deals on sneakers, trail shoes, boots, and sandals.',
-    icon: '👟',
     image: 'https://picsum.photos/seed/shoes/600/400',
     dealCount: 5,
     seoContent:
@@ -76,7 +71,6 @@ export const categories: Category[] = [
     name: 'Furniture',
     slug: 'furniture',
     description: 'Furnish your home for less with deals on chairs, tables, beds, and storage.',
-    icon: '🛋️',
     image: 'https://picsum.photos/seed/furniture/600/400',
     dealCount: 5,
     seoContent:
@@ -87,7 +81,6 @@ export const categories: Category[] = [
     name: 'Sporting Goods',
     slug: 'sporting-goods',
     description: 'Get fit for less with deals on exercise equipment, outdoor gear, and sportswear.',
-    icon: '⚽',
     image: 'https://picsum.photos/seed/sporting-goods/600/400',
     dealCount: 5,
     seoContent:
@@ -98,7 +91,6 @@ export const categories: Category[] = [
     name: 'Extra Time Deals',
     slug: 'extra-time-deals',
     description: 'Popular deals brought back for an encore. Get a second chance at the best prices.',
-    icon: '⏰',
     image: 'https://picsum.photos/seed/extra-time-deals/600/400',
     dealCount: 3,
     seoContent:
@@ -109,7 +101,6 @@ export const categories: Category[] = [
     name: 'Hardware',
     slug: 'hardware',
     description: 'Tools, storage, and DIY essentials for every project around the house.',
-    icon: '🔧',
     image: 'https://picsum.photos/seed/hardware/600/400',
     dealCount: 4,
     seoContent:
@@ -120,7 +111,6 @@ export const categories: Category[] = [
     name: 'Luggage & Bags',
     slug: 'luggage-and-bags',
     description: 'Travel in style with deals on luggage sets, backpacks, and duffel bags.',
-    icon: '🧳',
     image: 'https://picsum.photos/seed/luggage-and-bags/600/400',
     dealCount: 4,
     seoContent:
@@ -131,7 +121,6 @@ export const categories: Category[] = [
     name: 'Baby & Toddler',
     slug: 'baby-and-toddler',
     description: 'Everything for the little ones — toys, clothing, gear, and more at deal prices.',
-    icon: '👶',
     image: 'https://picsum.photos/seed/baby-and-toddler/600/400',
     dealCount: 4,
     seoContent:
@@ -142,7 +131,6 @@ export const categories: Category[] = [
     name: 'Business & Industrial',
     slug: 'business-and-industrial',
     description: 'Office supplies, commercial equipment, and business essentials at wholesale-beating prices.',
-    icon: '🏢',
     image: 'https://picsum.photos/seed/business-and-industrial/600/400',
     dealCount: 3,
     seoContent:
@@ -153,7 +141,6 @@ export const categories: Category[] = [
     name: 'Media',
     slug: 'media',
     description: 'Books, gift cards, digital media, and entertainment at unbeatable prices.',
-    icon: '📚',
     image: 'https://picsum.photos/seed/media/600/400',
     dealCount: 3,
     seoContent:
@@ -164,7 +151,6 @@ export const categories: Category[] = [
     name: 'Toys & Games',
     slug: 'toys-and-games',
     description: 'Fun for all ages with deals on gaming, board games, outdoor toys, and more.',
-    icon: '🎮',
     image: 'https://picsum.photos/seed/toys-and-games/600/400',
     dealCount: 4,
     seoContent:
@@ -175,7 +161,6 @@ export const categories: Category[] = [
     name: 'Animals & Pet Supplies',
     slug: 'animals-and-pet-supplies',
     description: 'Treat your furry friends with deals on pet beds, feeders, toys, and accessories.',
-    icon: '🐾',
     image: 'https://picsum.photos/seed/animals-and-pet-supplies/600/400',
     dealCount: 3,
     seoContent:
