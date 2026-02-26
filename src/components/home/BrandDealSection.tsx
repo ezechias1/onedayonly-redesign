@@ -40,7 +40,7 @@ export function BrandDealSection({ brand, products, reversed = false }: BrandDea
         </h2>
         {remainingCount > 0 && (
           <Link
-            href={`/brand/${brand.slug}`}
+            href={`/brands/${brand.slug}`}
             className="flex items-center gap-1 text-sm font-medium text-brand-red hover:underline"
           >
             Shop {remainingCount} more deal{remainingCount !== 1 ? "s" : ""}
