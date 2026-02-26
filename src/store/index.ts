@@ -24,4 +24,7 @@ export type {
 export { useUIStore } from "./ui-store";
 export type { UIState, UIActions, UIStore } from "./ui-store";
 
+export { useRecentlyViewedStore } from "./recently-viewed-store";
+export type { RecentlyViewedItem } from "./recently-viewed-store";
+
 export { Providers } from "./providers";

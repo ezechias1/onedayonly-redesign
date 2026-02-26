@@ -9,3 +9,4 @@ export { TopProductsRow } from "./TopProductsRow";
 export { BrandDealSection } from "./BrandDealSection";
 export { BrandDealFeed } from "./BrandDealFeed";
 export { PromoBanner } from "./PromoBanner";
+export { RecentlyViewedSection } from "./RecentlyViewedSection";

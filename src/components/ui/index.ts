@@ -8,7 +8,7 @@ export type { ButtonProps, ButtonVariant, ButtonSize } from "./Button";
 export { Badge } from "./Badge";
 export type { BadgeProps, BadgeVariant, BadgeSize } from "./Badge";
 
-export { Skeleton } from "./Skeleton";
+export { Skeleton, ProductCardSkeleton, ProductGridSkeleton } from "./Skeleton";
 export type { SkeletonProps, SkeletonVariant } from "./Skeleton";
 
 export { Modal, ModalRoot, ModalTrigger, ModalPortal, ModalClose, ModalOverlay, ModalContent, ModalTitle, ModalDescription } from "./Modal";

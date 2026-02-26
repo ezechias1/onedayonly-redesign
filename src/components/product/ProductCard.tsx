@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { Heart, Eye, ShoppingCart, AlertTriangle } from "lucide-react";
+import { toast } from "sonner";
 import { cn } from "@/lib/utils";
 import { useWishlistStore } from "@/store/wishlist-store";
 import { useCartStore } from "@/store/cart-store";
@@ -55,6 +56,7 @@ const badgeConfig: Record<
  */
 export function ProductCard({ product, className }: ProductCardProps) {
   const [isHovered, setIsHovered] = useState(false);
+  const [imageLoaded, setImageLoaded] = useState(false);
 
   // -- Stores ---------------------------------------------------------------
   const toggleWishlist = useWishlistStore((s) => s.toggleItem);
@@ -83,7 +85,11 @@ export function ProductCard({ product, className }: ProductCardProps) {
   function handleWishlistClick(e: React.MouseEvent) {
     e.preventDefault();
     e.stopPropagation();
-    toggleWishlist(product);
+    const wasAdded = toggleWishlist(product);
+    toast(wasAdded ? "Added to wishlist" : "Removed from wishlist", {
+      description: product.shortName,
+      icon: wasAdded ? "❤️" : undefined,
+    });
   }
 
   function handleQuickAdd(e: React.MouseEvent) {
@@ -92,6 +98,9 @@ export function ProductCard({ product, className }: ProductCardProps) {
     if (!product.isSoldOut) {
       addToCart(product);
       openDrawer();
+      toast.success("Added to cart!", {
+        description: product.shortName,
+      });
     }
   }
 
@@ -111,16 +120,22 @@ export function ProductCard({ product, className }: ProductCardProps) {
     >
       {/* ── Image Section ──────────────────────────────────────── */}
       <div className="relative aspect-square overflow-hidden bg-white dark:bg-gray-900">
+        {/* Skeleton shimmer while image loads */}
+        {!imageLoaded && (
+          <div className="absolute inset-0 skeleton" aria-hidden="true" />
+        )}
         <Image
           src={imageUrl}
           alt={imageAlt}
           fill
           sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, (max-width: 1024px) 25vw, 20vw"
           className={cn(
-            "object-cover transition-transform duration-500 ease-out",
+            "object-cover transition-all duration-500 ease-out",
             "group-hover:scale-105",
-            product.isSoldOut && "grayscale"
+            product.isSoldOut && "grayscale",
+            imageLoaded ? "opacity-100" : "opacity-0"
           )}
+          onLoad={() => setImageLoaded(true)}
         />
 
         {/* Discount badge + save label - top left */}

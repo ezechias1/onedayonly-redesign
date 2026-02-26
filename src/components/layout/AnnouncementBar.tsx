@@ -1,6 +1,7 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { X } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
@@ -12,7 +13,10 @@ const announcements = [
   'Free delivery on orders over R500',
   'New deals every day at midnight',
   'Up to 80% off top brands',
+  'Shop SA\'s best daily deals',
 ];
+
+const ROTATE_INTERVAL = 4000;
 
 // ---------------------------------------------------------------------------
 // AnnouncementBar
@@ -20,6 +24,14 @@ const announcements = [
 
 export function AnnouncementBar() {
   const [dismissed, setDismissed] = useState(false);
+  const [current, setCurrent] = useState(0);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrent((prev) => (prev + 1) % announcements.length);
+    }, ROTATE_INTERVAL);
+    return () => clearInterval(timer);
+  }, []);
 
   if (dismissed) {
     return null;
@@ -31,20 +43,19 @@ export function AnnouncementBar() {
       role="banner"
       aria-label="Promotional announcements"
     >
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-2 flex items-center justify-center">
-        {/* Marquee-style content */}
-        <div className="flex items-center gap-2 text-xs sm:text-sm font-medium overflow-hidden">
-          <div className="flex items-center gap-4 animate-marquee whitespace-nowrap">
-            {announcements.map((msg, i) => (
-              <span key={i} className="flex items-center gap-4">
-                {i > 0 && (
-                  <span className="w-1 h-1 rounded-full bg-white/50 shrink-0" aria-hidden="true" />
-                )}
-                <span>{msg}</span>
-              </span>
-            ))}
-          </div>
-        </div>
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-2 flex items-center justify-center min-h-[36px]">
+        <AnimatePresence mode="wait">
+          <motion.span
+            key={current}
+            initial={{ opacity: 0, y: 12 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -12 }}
+            transition={{ duration: 0.3, ease: 'easeInOut' }}
+            className="text-xs sm:text-sm font-medium text-center"
+          >
+            {announcements[current]}
+          </motion.span>
+        </AnimatePresence>
 
         {/* Dismiss button */}
         <button

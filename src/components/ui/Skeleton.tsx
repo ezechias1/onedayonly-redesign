@@ -101,4 +101,39 @@ export function Skeleton({
   );
 }
 
+// ---------------------------------------------------------------------------
+// ProductCardSkeleton — matches ProductCard layout
+// ---------------------------------------------------------------------------
+
+export function ProductCardSkeleton() {
+  return (
+    <div className="flex flex-col rounded-card overflow-hidden bg-white dark:bg-dark-surface shadow-sm" aria-hidden="true">
+      <Skeleton variant="rectangular" className="aspect-square w-full rounded-none h-auto" />
+      <div className="flex flex-col gap-2 p-3">
+        <Skeleton variant="text" width="4rem" />
+        <Skeleton variant="text" />
+        <Skeleton variant="text" width="75%" />
+        <div className="flex items-center justify-between mt-1">
+          <Skeleton variant="text" width="5rem" height={20} />
+          <Skeleton variant="text" width="3.5rem" />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// ---------------------------------------------------------------------------
+// ProductGridSkeleton — grid of ProductCardSkeletons
+// ---------------------------------------------------------------------------
+
+export function ProductGridSkeleton({ count = 6 }: { count?: number }) {
+  return (
+    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
+      {Array.from({ length: count }).map((_, i) => (
+        <ProductCardSkeleton key={i} />
+      ))}
+    </div>
+  );
+}
+
 export default Skeleton;

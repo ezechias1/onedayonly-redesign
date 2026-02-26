@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Truck, Shield, Star, Lock } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { formatPrice, formatDiscount } from "@/lib/utils";
@@ -11,6 +11,9 @@ import { QuantitySelector } from "@/components/product/QuantitySelector";
 import { AddToCartButton } from "@/components/product/AddToCartButton";
 import { ShareButton } from "@/components/product/ShareButton";
 import { RelatedProducts } from "@/components/product/RelatedProducts";
+import { StickyAddToCart } from "@/components/product/StickyAddToCart";
+import { RecentlyViewed } from "@/components/product/RecentlyViewed";
+import { useRecentlyViewedStore } from "@/store/recently-viewed-store";
 import type { Product, Variant } from "@/types/product";
 
 // ---------------------------------------------------------------------------
@@ -71,6 +74,23 @@ export function ProductDetailClient({
   const selectedVariant = product.variants.find(
     (v) => v.id === selectedVariantId,
   );
+
+  // Track recently viewed
+  const addRecentlyViewed = useRecentlyViewedStore((s) => s.addItem);
+  useEffect(() => {
+    const defaultImage = product.images.find((img) => img.isDefault);
+    addRecentlyViewed({
+      id: product.id,
+      slug: product.slug,
+      name: product.name,
+      shortName: product.shortName,
+      brand: product.brand.name,
+      image: defaultImage?.url ?? product.images[0]?.url ?? '',
+      price: product.price,
+      originalPrice: product.originalPrice,
+      discountPercentage: product.discountPercentage,
+    });
+  }, [product, addRecentlyViewed]);
 
   // Resolve price based on variant
   const displayPrice =
@@ -181,6 +201,18 @@ export function ProductDetailClient({
           <RelatedProducts products={relatedProducts} />
         </div>
       )}
+
+      {/* Recently Viewed */}
+      <div className="col-span-full mt-10 border-t border-gray-100 pt-8 dark:border-dark-border">
+        <RecentlyViewed excludeId={product.id} />
+      </div>
+
+      {/* Sticky Add to Cart bar */}
+      <StickyAddToCart
+        product={product}
+        variant={selectedVariant}
+        quantity={quantity}
+      />
     </>
   );
 }

@@ -1,6 +1,7 @@
 import { HeroCarousel } from "@/components/home/HeroCarousel";
 import { TopProductsRow } from "@/components/home/TopProductsRow";
 import { BrandDealFeed } from "@/components/home/BrandDealFeed";
+import { RecentlyViewedSection } from "@/components/home/RecentlyViewedSection";
 
 // ---------------------------------------------------------------------------
 // Page metadata
@@ -35,6 +36,9 @@ export default function HomePage() {
 
       {/* Brand-grouped deal sections with promo banners */}
       <BrandDealFeed />
+
+      {/* Recently viewed products */}
+      <RecentlyViewedSection />
     </>
   );
 }
