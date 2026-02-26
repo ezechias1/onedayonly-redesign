@@ -219,9 +219,7 @@ export function Header() {
             </IconButton>
 
             {/* Dark mode */}
-            <div className="hidden sm:block">
-              <DarkModeToggle />
-            </div>
+            <DarkModeToggle />
 
             {/* Wishlist */}
             <Link

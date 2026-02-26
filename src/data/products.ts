@@ -36,20 +36,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-001a",
-        "url": "https://placehold.co/800x800/1a1a2e/e94560/png?text=Bose%20QC45%20Headphones&font=montserrat",
-        "alt": "Bose QC45 Headphones - main product image",
+        "id": "img-101a",
+        "url": "https://picsum.photos/seed/303/800/800",
+        "alt": "Bose QC45 Headphones - front view",
         "isDefault": true
       },
       {
-        "id": "img-001b",
-        "url": "https://placehold.co/800x800/1a1a2e/e94560/png?text=Bose%20QC45%20Headphones%0ADetail&font=montserrat",
+        "id": "img-101b",
+        "url": "https://picsum.photos/seed/304/800/800",
         "alt": "Bose QC45 Headphones - detail view",
         "isDefault": false
       },
       {
-        "id": "img-001c",
-        "url": "https://placehold.co/800x800/1a1a2e/e94560/png?text=Bose%20QC45%20Headphones%0ASide%20View&font=montserrat",
+        "id": "img-101c",
+        "url": "https://picsum.photos/seed/305/800/800",
         "alt": "Bose QC45 Headphones - side view",
         "isDefault": false
       }
@@ -112,20 +112,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-002a",
-        "url": "https://placehold.co/800x800/1a1a2e/e94560/png?text=JBL%20Charge%205%20Speaker&font=montserrat",
-        "alt": "JBL Charge 5 Speaker - main product image",
+        "id": "img-102a",
+        "url": "https://picsum.photos/seed/306/800/800",
+        "alt": "JBL Charge 5 Speaker - front view",
         "isDefault": true
       },
       {
-        "id": "img-002b",
-        "url": "https://placehold.co/800x800/1a1a2e/e94560/png?text=JBL%20Charge%205%20Speaker%0ADetail&font=montserrat",
+        "id": "img-102b",
+        "url": "https://picsum.photos/seed/307/800/800",
         "alt": "JBL Charge 5 Speaker - detail view",
         "isDefault": false
       },
       {
-        "id": "img-002c",
-        "url": "https://placehold.co/800x800/1a1a2e/e94560/png?text=JBL%20Charge%205%20Speaker%0ASide%20View&font=montserrat",
+        "id": "img-102c",
+        "url": "https://picsum.photos/seed/308/800/800",
         "alt": "JBL Charge 5 Speaker - side view",
         "isDefault": false
       }
@@ -197,20 +197,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-003a",
-        "url": "https://placehold.co/800x800/1a1a2e/e94560/png?text=Samsung%20Galaxy%20Tab%20A9&font=montserrat",
-        "alt": "Samsung Galaxy Tab A9 - main product image",
+        "id": "img-103a",
+        "url": "https://picsum.photos/seed/309/800/800",
+        "alt": "Samsung Galaxy Tab A9 - front view",
         "isDefault": true
       },
       {
-        "id": "img-003b",
-        "url": "https://placehold.co/800x800/1a1a2e/e94560/png?text=Samsung%20Galaxy%20Tab%20A9%0ADetail&font=montserrat",
+        "id": "img-103b",
+        "url": "https://picsum.photos/seed/310/800/800",
         "alt": "Samsung Galaxy Tab A9 - detail view",
         "isDefault": false
       },
       {
-        "id": "img-003c",
-        "url": "https://placehold.co/800x800/1a1a2e/e94560/png?text=Samsung%20Galaxy%20Tab%20A9%0ASide%20View&font=montserrat",
+        "id": "img-103c",
+        "url": "https://picsum.photos/seed/311/800/800",
         "alt": "Samsung Galaxy Tab A9 - side view",
         "isDefault": false
       }
@@ -257,20 +257,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-004a",
-        "url": "https://placehold.co/800x800/1a1a2e/e94560/png?text=WUW%2010000mAh%20Power%20Bank&font=montserrat",
-        "alt": "WUW 10000mAh Power Bank - main product image",
+        "id": "img-104a",
+        "url": "https://picsum.photos/seed/312/800/800",
+        "alt": "WUW 10000mAh Power Bank - front view",
         "isDefault": true
       },
       {
-        "id": "img-004b",
-        "url": "https://placehold.co/800x800/1a1a2e/e94560/png?text=WUW%2010000mAh%20Power%20Bank%0ADetail&font=montserrat",
+        "id": "img-104b",
+        "url": "https://picsum.photos/seed/313/800/800",
         "alt": "WUW 10000mAh Power Bank - detail view",
         "isDefault": false
       },
       {
-        "id": "img-004c",
-        "url": "https://placehold.co/800x800/1a1a2e/e94560/png?text=WUW%2010000mAh%20Power%20Bank%0ASide%20View&font=montserrat",
+        "id": "img-104c",
+        "url": "https://picsum.photos/seed/314/800/800",
         "alt": "WUW 10000mAh Power Bank - side view",
         "isDefault": false
       }
@@ -317,20 +317,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-005a",
-        "url": "https://placehold.co/800x800/1a1a2e/e94560/png?text=Earldom%20USB-C%20Cable%203-Pack&font=montserrat",
-        "alt": "Earldom USB-C Cable 3-Pack - main product image",
+        "id": "img-105a",
+        "url": "https://picsum.photos/seed/315/800/800",
+        "alt": "Earldom USB-C Cable 3-Pack - front view",
         "isDefault": true
       },
       {
-        "id": "img-005b",
-        "url": "https://placehold.co/800x800/1a1a2e/e94560/png?text=Earldom%20USB-C%20Cable%203-Pack%0ADetail&font=montserrat",
+        "id": "img-105b",
+        "url": "https://picsum.photos/seed/316/800/800",
         "alt": "Earldom USB-C Cable 3-Pack - detail view",
         "isDefault": false
       },
       {
-        "id": "img-005c",
-        "url": "https://placehold.co/800x800/1a1a2e/e94560/png?text=Earldom%20USB-C%20Cable%203-Pack%0ASide%20View&font=montserrat",
+        "id": "img-105c",
+        "url": "https://picsum.photos/seed/317/800/800",
         "alt": "Earldom USB-C Cable 3-Pack - side view",
         "isDefault": false
       }
@@ -377,20 +377,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-006a",
-        "url": "https://placehold.co/800x800/1a1a2e/e94560/png?text=Govee%20LED%20Strip%205m&font=montserrat",
-        "alt": "Govee LED Strip 5m - main product image",
+        "id": "img-106a",
+        "url": "https://picsum.photos/seed/318/800/800",
+        "alt": "Govee LED Strip 5m - front view",
         "isDefault": true
       },
       {
-        "id": "img-006b",
-        "url": "https://placehold.co/800x800/1a1a2e/e94560/png?text=Govee%20LED%20Strip%205m%0ADetail&font=montserrat",
+        "id": "img-106b",
+        "url": "https://picsum.photos/seed/319/800/800",
         "alt": "Govee LED Strip 5m - detail view",
         "isDefault": false
       },
       {
-        "id": "img-006c",
-        "url": "https://placehold.co/800x800/1a1a2e/e94560/png?text=Govee%20LED%20Strip%205m%0ASide%20View&font=montserrat",
+        "id": "img-106c",
+        "url": "https://picsum.photos/seed/320/800/800",
         "alt": "Govee LED Strip 5m - side view",
         "isDefault": false
       }
@@ -441,20 +441,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-007a",
-        "url": "https://placehold.co/800x800/1a1a2e/e94560/png?text=Fire%20TV%20Stick%204K%20Max&font=montserrat",
-        "alt": "Fire TV Stick 4K Max - main product image",
+        "id": "img-107a",
+        "url": "https://picsum.photos/seed/321/800/800",
+        "alt": "Fire TV Stick 4K Max - front view",
         "isDefault": true
       },
       {
-        "id": "img-007b",
-        "url": "https://placehold.co/800x800/1a1a2e/e94560/png?text=Fire%20TV%20Stick%204K%20Max%0ADetail&font=montserrat",
+        "id": "img-107b",
+        "url": "https://picsum.photos/seed/322/800/800",
         "alt": "Fire TV Stick 4K Max - detail view",
         "isDefault": false
       },
       {
-        "id": "img-007c",
-        "url": "https://placehold.co/800x800/1a1a2e/e94560/png?text=Fire%20TV%20Stick%204K%20Max%0ASide%20View&font=montserrat",
+        "id": "img-107c",
+        "url": "https://picsum.photos/seed/323/800/800",
         "alt": "Fire TV Stick 4K Max - side view",
         "isDefault": false
       }
@@ -503,20 +503,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-008a",
-        "url": "https://placehold.co/800x800/2d4059/ea5455/png?text=Storinity%206pc%20Containers&font=montserrat",
-        "alt": "Storinity 6pc Containers - main product image",
+        "id": "img-108a",
+        "url": "https://picsum.photos/seed/324/800/800",
+        "alt": "Storinity 6pc Containers - front view",
         "isDefault": true
       },
       {
-        "id": "img-008b",
-        "url": "https://placehold.co/800x800/2d4059/ea5455/png?text=Storinity%206pc%20Containers%0ADetail&font=montserrat",
+        "id": "img-108b",
+        "url": "https://picsum.photos/seed/325/800/800",
         "alt": "Storinity 6pc Containers - detail view",
         "isDefault": false
       },
       {
-        "id": "img-008c",
-        "url": "https://placehold.co/800x800/2d4059/ea5455/png?text=Storinity%206pc%20Containers%0ASide%20View&font=montserrat",
+        "id": "img-108c",
+        "url": "https://picsum.photos/seed/326/800/800",
         "alt": "Storinity 6pc Containers - side view",
         "isDefault": false
       }
@@ -562,20 +562,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-009a",
-        "url": "https://placehold.co/800x800/2d4059/ea5455/png?text=Fine%20Living%20Blockout%20Curtains&font=montserrat",
-        "alt": "Fine Living Blockout Curtains - main product image",
+        "id": "img-109a",
+        "url": "https://picsum.photos/seed/327/800/800",
+        "alt": "Fine Living Blockout Curtains - front view",
         "isDefault": true
       },
       {
-        "id": "img-009b",
-        "url": "https://placehold.co/800x800/2d4059/ea5455/png?text=Fine%20Living%20Blockout%20Curtains%0ADetail&font=montserrat",
+        "id": "img-109b",
+        "url": "https://picsum.photos/seed/328/800/800",
         "alt": "Fine Living Blockout Curtains - detail view",
         "isDefault": false
       },
       {
-        "id": "img-009c",
-        "url": "https://placehold.co/800x800/2d4059/ea5455/png?text=Fine%20Living%20Blockout%20Curtains%0ASide%20View&font=montserrat",
+        "id": "img-109c",
+        "url": "https://picsum.photos/seed/329/800/800",
         "alt": "Fine Living Blockout Curtains - side view",
         "isDefault": false
       }
@@ -645,20 +645,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-010a",
-        "url": "https://placehold.co/800x800/2d4059/ea5455/png?text=3m%20Cantilever%20Umbrella&font=montserrat",
-        "alt": "3m Cantilever Umbrella - main product image",
+        "id": "img-110a",
+        "url": "https://picsum.photos/seed/330/800/800",
+        "alt": "3m Cantilever Umbrella - front view",
         "isDefault": true
       },
       {
-        "id": "img-010b",
-        "url": "https://placehold.co/800x800/2d4059/ea5455/png?text=3m%20Cantilever%20Umbrella%0ADetail&font=montserrat",
+        "id": "img-110b",
+        "url": "https://picsum.photos/seed/331/800/800",
         "alt": "3m Cantilever Umbrella - detail view",
         "isDefault": false
       },
       {
-        "id": "img-010c",
-        "url": "https://placehold.co/800x800/2d4059/ea5455/png?text=3m%20Cantilever%20Umbrella%0ASide%20View&font=montserrat",
+        "id": "img-110c",
+        "url": "https://picsum.photos/seed/332/800/800",
         "alt": "3m Cantilever Umbrella - side view",
         "isDefault": false
       }
@@ -719,20 +719,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-011a",
-        "url": "https://placehold.co/800x800/2d4059/ea5455/png?text=Fine%20Living%20Shaggy%20Rug&font=montserrat",
-        "alt": "Fine Living Shaggy Rug - main product image",
+        "id": "img-111a",
+        "url": "https://picsum.photos/seed/333/800/800",
+        "alt": "Fine Living Shaggy Rug - front view",
         "isDefault": true
       },
       {
-        "id": "img-011b",
-        "url": "https://placehold.co/800x800/2d4059/ea5455/png?text=Fine%20Living%20Shaggy%20Rug%0ADetail&font=montserrat",
+        "id": "img-111b",
+        "url": "https://picsum.photos/seed/334/800/800",
         "alt": "Fine Living Shaggy Rug - detail view",
         "isDefault": false
       },
       {
-        "id": "img-011c",
-        "url": "https://placehold.co/800x800/2d4059/ea5455/png?text=Fine%20Living%20Shaggy%20Rug%0ASide%20View&font=montserrat",
+        "id": "img-111c",
+        "url": "https://picsum.photos/seed/335/800/800",
         "alt": "Fine Living Shaggy Rug - side view",
         "isDefault": false
       }
@@ -796,20 +796,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-012a",
-        "url": "https://placehold.co/800x800/2d4059/ea5455/png?text=Steel%20Garden%20Shed&font=montserrat",
-        "alt": "Steel Garden Shed - main product image",
+        "id": "img-112a",
+        "url": "https://picsum.photos/seed/336/800/800",
+        "alt": "Steel Garden Shed - front view",
         "isDefault": true
       },
       {
-        "id": "img-012b",
-        "url": "https://placehold.co/800x800/2d4059/ea5455/png?text=Steel%20Garden%20Shed%0ADetail&font=montserrat",
+        "id": "img-112b",
+        "url": "https://picsum.photos/seed/337/800/800",
         "alt": "Steel Garden Shed - detail view",
         "isDefault": false
       },
       {
-        "id": "img-012c",
-        "url": "https://placehold.co/800x800/2d4059/ea5455/png?text=Steel%20Garden%20Shed%0ASide%20View&font=montserrat",
+        "id": "img-112c",
+        "url": "https://picsum.photos/seed/338/800/800",
         "alt": "Steel Garden Shed - side view",
         "isDefault": false
       }
@@ -852,20 +852,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-013a",
-        "url": "https://placehold.co/800x800/e8a87c/2d132c/png?text=Sci-Core%20Creatine%20500g&font=montserrat",
-        "alt": "Sci-Core Creatine 500g - main product image",
+        "id": "img-113a",
+        "url": "https://picsum.photos/seed/339/800/800",
+        "alt": "Sci-Core Creatine 500g - front view",
         "isDefault": true
       },
       {
-        "id": "img-013b",
-        "url": "https://placehold.co/800x800/e8a87c/2d132c/png?text=Sci-Core%20Creatine%20500g%0ADetail&font=montserrat",
+        "id": "img-113b",
+        "url": "https://picsum.photos/seed/340/800/800",
         "alt": "Sci-Core Creatine 500g - detail view",
         "isDefault": false
       },
       {
-        "id": "img-013c",
-        "url": "https://placehold.co/800x800/e8a87c/2d132c/png?text=Sci-Core%20Creatine%20500g%0ASide%20View&font=montserrat",
+        "id": "img-113c",
+        "url": "https://picsum.photos/seed/341/800/800",
         "alt": "Sci-Core Creatine 500g - side view",
         "isDefault": false
       }
@@ -915,20 +915,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-014a",
-        "url": "https://placehold.co/800x800/e8a87c/2d132c/png?text=Dreame%20Hair%20Glory%20Dryer&font=montserrat",
-        "alt": "Dreame Hair Glory Dryer - main product image",
+        "id": "img-114a",
+        "url": "https://picsum.photos/seed/342/800/800",
+        "alt": "Dreame Hair Glory Dryer - front view",
         "isDefault": true
       },
       {
-        "id": "img-014b",
-        "url": "https://placehold.co/800x800/e8a87c/2d132c/png?text=Dreame%20Hair%20Glory%20Dryer%0ADetail&font=montserrat",
+        "id": "img-114b",
+        "url": "https://picsum.photos/seed/343/800/800",
         "alt": "Dreame Hair Glory Dryer - detail view",
         "isDefault": false
       },
       {
-        "id": "img-014c",
-        "url": "https://placehold.co/800x800/e8a87c/2d132c/png?text=Dreame%20Hair%20Glory%20Dryer%0ASide%20View&font=montserrat",
+        "id": "img-114c",
+        "url": "https://picsum.photos/seed/344/800/800",
         "alt": "Dreame Hair Glory Dryer - side view",
         "isDefault": false
       }
@@ -993,20 +993,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-015a",
-        "url": "https://placehold.co/800x800/e8a87c/2d132c/png?text=Russell%20Hobbs%20Rotary%20Shaver&font=montserrat",
-        "alt": "Russell Hobbs Rotary Shaver - main product image",
+        "id": "img-115a",
+        "url": "https://picsum.photos/seed/345/800/800",
+        "alt": "Russell Hobbs Rotary Shaver - front view",
         "isDefault": true
       },
       {
-        "id": "img-015b",
-        "url": "https://placehold.co/800x800/e8a87c/2d132c/png?text=Russell%20Hobbs%20Rotary%20Shaver%0ADetail&font=montserrat",
+        "id": "img-115b",
+        "url": "https://picsum.photos/seed/346/800/800",
         "alt": "Russell Hobbs Rotary Shaver - detail view",
         "isDefault": false
       },
       {
-        "id": "img-015c",
-        "url": "https://placehold.co/800x800/e8a87c/2d132c/png?text=Russell%20Hobbs%20Rotary%20Shaver%0ASide%20View&font=montserrat",
+        "id": "img-115c",
+        "url": "https://picsum.photos/seed/347/800/800",
         "alt": "Russell Hobbs Rotary Shaver - side view",
         "isDefault": false
       }
@@ -1049,20 +1049,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-016a",
-        "url": "https://placehold.co/800x800/e8a87c/2d132c/png?text=Sci-Core%20Whey%20Protein%201kg&font=montserrat",
-        "alt": "Sci-Core Whey Protein 1kg - main product image",
+        "id": "img-116a",
+        "url": "https://picsum.photos/seed/348/800/800",
+        "alt": "Sci-Core Whey Protein 1kg - front view",
         "isDefault": true
       },
       {
-        "id": "img-016b",
-        "url": "https://placehold.co/800x800/e8a87c/2d132c/png?text=Sci-Core%20Whey%20Protein%201kg%0ADetail&font=montserrat",
+        "id": "img-116b",
+        "url": "https://picsum.photos/seed/349/800/800",
         "alt": "Sci-Core Whey Protein 1kg - detail view",
         "isDefault": false
       },
       {
-        "id": "img-016c",
-        "url": "https://placehold.co/800x800/e8a87c/2d132c/png?text=Sci-Core%20Whey%20Protein%201kg%0ASide%20View&font=montserrat",
+        "id": "img-116c",
+        "url": "https://picsum.photos/seed/350/800/800",
         "alt": "Sci-Core Whey Protein 1kg - side view",
         "isDefault": false
       }
@@ -1130,20 +1130,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-017a",
-        "url": "https://placehold.co/800x800/1b5e20/c8e6c9/png?text=Cape%20Origin%20Coffee%201kg&font=montserrat",
-        "alt": "Cape Origin Coffee 1kg - main product image",
+        "id": "img-117a",
+        "url": "https://picsum.photos/seed/351/800/800",
+        "alt": "Cape Origin Coffee 1kg - front view",
         "isDefault": true
       },
       {
-        "id": "img-017b",
-        "url": "https://placehold.co/800x800/1b5e20/c8e6c9/png?text=Cape%20Origin%20Coffee%201kg%0ADetail&font=montserrat",
+        "id": "img-117b",
+        "url": "https://picsum.photos/seed/352/800/800",
         "alt": "Cape Origin Coffee 1kg - detail view",
         "isDefault": false
       },
       {
-        "id": "img-017c",
-        "url": "https://placehold.co/800x800/1b5e20/c8e6c9/png?text=Cape%20Origin%20Coffee%201kg%0ASide%20View&font=montserrat",
+        "id": "img-117c",
+        "url": "https://picsum.photos/seed/353/800/800",
         "alt": "Cape Origin Coffee 1kg - side view",
         "isDefault": false
       }
@@ -1188,20 +1188,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-018a",
-        "url": "https://placehold.co/800x800/1b5e20/c8e6c9/png?text=Gourmet%20Snack%20Box%2020pc&font=montserrat",
-        "alt": "Gourmet Snack Box 20pc - main product image",
+        "id": "img-118a",
+        "url": "https://picsum.photos/seed/354/800/800",
+        "alt": "Gourmet Snack Box 20pc - front view",
         "isDefault": true
       },
       {
-        "id": "img-018b",
-        "url": "https://placehold.co/800x800/1b5e20/c8e6c9/png?text=Gourmet%20Snack%20Box%2020pc%0ADetail&font=montserrat",
+        "id": "img-118b",
+        "url": "https://picsum.photos/seed/355/800/800",
         "alt": "Gourmet Snack Box 20pc - detail view",
         "isDefault": false
       },
       {
-        "id": "img-018c",
-        "url": "https://placehold.co/800x800/1b5e20/c8e6c9/png?text=Gourmet%20Snack%20Box%2020pc%0ASide%20View&font=montserrat",
+        "id": "img-118c",
+        "url": "https://picsum.photos/seed/356/800/800",
         "alt": "Gourmet Snack Box 20pc - side view",
         "isDefault": false
       }
@@ -1245,20 +1245,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-019a",
-        "url": "https://placehold.co/800x800/1b5e20/c8e6c9/png?text=12pc%20Spice%20Set&font=montserrat",
-        "alt": "12pc Spice Set - main product image",
+        "id": "img-119a",
+        "url": "https://picsum.photos/seed/357/800/800",
+        "alt": "12pc Spice Set - front view",
         "isDefault": true
       },
       {
-        "id": "img-019b",
-        "url": "https://placehold.co/800x800/1b5e20/c8e6c9/png?text=12pc%20Spice%20Set%0ADetail&font=montserrat",
+        "id": "img-119b",
+        "url": "https://picsum.photos/seed/358/800/800",
         "alt": "12pc Spice Set - detail view",
         "isDefault": false
       },
       {
-        "id": "img-019c",
-        "url": "https://placehold.co/800x800/1b5e20/c8e6c9/png?text=12pc%20Spice%20Set%0ASide%20View&font=montserrat",
+        "id": "img-119c",
+        "url": "https://picsum.photos/seed/359/800/800",
         "alt": "12pc Spice Set - side view",
         "isDefault": false
       }
@@ -1305,20 +1305,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-020a",
-        "url": "https://placehold.co/800x800/1b5e20/c8e6c9/png?text=Rooibos%20Tea%20Gift%20Set&font=montserrat",
-        "alt": "Rooibos Tea Gift Set - main product image",
+        "id": "img-120a",
+        "url": "https://picsum.photos/seed/360/800/800",
+        "alt": "Rooibos Tea Gift Set - front view",
         "isDefault": true
       },
       {
-        "id": "img-020b",
-        "url": "https://placehold.co/800x800/1b5e20/c8e6c9/png?text=Rooibos%20Tea%20Gift%20Set%0ADetail&font=montserrat",
+        "id": "img-120b",
+        "url": "https://picsum.photos/seed/361/800/800",
         "alt": "Rooibos Tea Gift Set - detail view",
         "isDefault": false
       },
       {
-        "id": "img-020c",
-        "url": "https://placehold.co/800x800/1b5e20/c8e6c9/png?text=Rooibos%20Tea%20Gift%20Set%0ASide%20View&font=montserrat",
+        "id": "img-120c",
+        "url": "https://picsum.photos/seed/362/800/800",
         "alt": "Rooibos Tea Gift Set - side view",
         "isDefault": false
       }
@@ -1366,20 +1366,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-021a",
-        "url": "https://placehold.co/800x800/2d132c/e8a87c/png?text=AJ%20Emperor%20Watch&font=montserrat",
-        "alt": "AJ Emperor Watch - main product image",
+        "id": "img-121a",
+        "url": "https://picsum.photos/seed/363/800/800",
+        "alt": "AJ Emperor Watch - front view",
         "isDefault": true
       },
       {
-        "id": "img-021b",
-        "url": "https://placehold.co/800x800/2d132c/e8a87c/png?text=AJ%20Emperor%20Watch%0ADetail&font=montserrat",
+        "id": "img-121b",
+        "url": "https://picsum.photos/seed/364/800/800",
         "alt": "AJ Emperor Watch - detail view",
         "isDefault": false
       },
       {
-        "id": "img-021c",
-        "url": "https://placehold.co/800x800/2d132c/e8a87c/png?text=AJ%20Emperor%20Watch%0ASide%20View&font=montserrat",
+        "id": "img-121c",
+        "url": "https://picsum.photos/seed/365/800/800",
         "alt": "AJ Emperor Watch - side view",
         "isDefault": false
       }
@@ -1455,20 +1455,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-022a",
-        "url": "https://placehold.co/800x800/2d132c/e8a87c/png?text=Crystal%20Pendant%20Necklace&font=montserrat",
-        "alt": "Crystal Pendant Necklace - main product image",
+        "id": "img-122a",
+        "url": "https://picsum.photos/seed/366/800/800",
+        "alt": "Crystal Pendant Necklace - front view",
         "isDefault": true
       },
       {
-        "id": "img-022b",
-        "url": "https://placehold.co/800x800/2d132c/e8a87c/png?text=Crystal%20Pendant%20Necklace%0ADetail&font=montserrat",
+        "id": "img-122b",
+        "url": "https://picsum.photos/seed/367/800/800",
         "alt": "Crystal Pendant Necklace - detail view",
         "isDefault": false
       },
       {
-        "id": "img-022c",
-        "url": "https://placehold.co/800x800/2d132c/e8a87c/png?text=Crystal%20Pendant%20Necklace%0ASide%20View&font=montserrat",
+        "id": "img-122c",
+        "url": "https://picsum.photos/seed/368/800/800",
         "alt": "Crystal Pendant Necklace - side view",
         "isDefault": false
       }
@@ -1513,20 +1513,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-023a",
-        "url": "https://placehold.co/800x800/2d132c/e8a87c/png?text=Ven-Dens%205pk%20Trunks&font=montserrat",
-        "alt": "Ven-Dens 5pk Trunks - main product image",
+        "id": "img-123a",
+        "url": "https://picsum.photos/seed/369/800/800",
+        "alt": "Ven-Dens 5pk Trunks - front view",
         "isDefault": true
       },
       {
-        "id": "img-023b",
-        "url": "https://placehold.co/800x800/2d132c/e8a87c/png?text=Ven-Dens%205pk%20Trunks%0ADetail&font=montserrat",
+        "id": "img-123b",
+        "url": "https://picsum.photos/seed/370/800/800",
         "alt": "Ven-Dens 5pk Trunks - detail view",
         "isDefault": false
       },
       {
-        "id": "img-023c",
-        "url": "https://placehold.co/800x800/2d132c/e8a87c/png?text=Ven-Dens%205pk%20Trunks%0ASide%20View&font=montserrat",
+        "id": "img-123c",
+        "url": "https://picsum.photos/seed/371/800/800",
         "alt": "Ven-Dens 5pk Trunks - side view",
         "isDefault": false
       }
@@ -1610,20 +1610,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-024a",
-        "url": "https://placehold.co/800x800/2d132c/e8a87c/png?text=YesPlus%20Sport%20Sunglasses&font=montserrat",
-        "alt": "YesPlus Sport Sunglasses - main product image",
+        "id": "img-124a",
+        "url": "https://picsum.photos/seed/372/800/800",
+        "alt": "YesPlus Sport Sunglasses - front view",
         "isDefault": true
       },
       {
-        "id": "img-024b",
-        "url": "https://placehold.co/800x800/2d132c/e8a87c/png?text=YesPlus%20Sport%20Sunglasses%0ADetail&font=montserrat",
+        "id": "img-124b",
+        "url": "https://picsum.photos/seed/373/800/800",
         "alt": "YesPlus Sport Sunglasses - detail view",
         "isDefault": false
       },
       {
-        "id": "img-024c",
-        "url": "https://placehold.co/800x800/2d132c/e8a87c/png?text=YesPlus%20Sport%20Sunglasses%0ASide%20View&font=montserrat",
+        "id": "img-124c",
+        "url": "https://picsum.photos/seed/374/800/800",
         "alt": "YesPlus Sport Sunglasses - side view",
         "isDefault": false
       }
@@ -1683,20 +1683,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-025a",
-        "url": "https://placehold.co/800x800/2d132c/e8a87c/png?text=AJ%20Vintage%20Chronograph&font=montserrat",
-        "alt": "AJ Vintage Chronograph - main product image",
+        "id": "img-125a",
+        "url": "https://picsum.photos/seed/375/800/800",
+        "alt": "AJ Vintage Chronograph - front view",
         "isDefault": true
       },
       {
-        "id": "img-025b",
-        "url": "https://placehold.co/800x800/2d132c/e8a87c/png?text=AJ%20Vintage%20Chronograph%0ADetail&font=montserrat",
+        "id": "img-125b",
+        "url": "https://picsum.photos/seed/376/800/800",
         "alt": "AJ Vintage Chronograph - detail view",
         "isDefault": false
       },
       {
-        "id": "img-025c",
-        "url": "https://placehold.co/800x800/2d132c/e8a87c/png?text=AJ%20Vintage%20Chronograph%0ASide%20View&font=montserrat",
+        "id": "img-125c",
+        "url": "https://picsum.photos/seed/377/800/800",
         "alt": "AJ Vintage Chronograph - side view",
         "isDefault": false
       }
@@ -1746,20 +1746,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-026a",
-        "url": "https://placehold.co/800x800/3c2a21/d7a86e/png?text=ProSit%20Office%20Chair&font=montserrat",
-        "alt": "ProSit Office Chair - main product image",
+        "id": "img-126a",
+        "url": "https://picsum.photos/seed/378/800/800",
+        "alt": "ProSit Office Chair - front view",
         "isDefault": true
       },
       {
-        "id": "img-026b",
-        "url": "https://placehold.co/800x800/3c2a21/d7a86e/png?text=ProSit%20Office%20Chair%0ADetail&font=montserrat",
+        "id": "img-126b",
+        "url": "https://picsum.photos/seed/379/800/800",
         "alt": "ProSit Office Chair - detail view",
         "isDefault": false
       },
       {
-        "id": "img-026c",
-        "url": "https://placehold.co/800x800/3c2a21/d7a86e/png?text=ProSit%20Office%20Chair%0ASide%20View&font=montserrat",
+        "id": "img-126c",
+        "url": "https://picsum.photos/seed/380/800/800",
         "alt": "ProSit Office Chair - side view",
         "isDefault": false
       }
@@ -1822,20 +1822,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-027a",
-        "url": "https://placehold.co/800x800/3c2a21/d7a86e/png?text=Bedside%20Table%20Pair&font=montserrat",
-        "alt": "Bedside Table Pair - main product image",
+        "id": "img-127a",
+        "url": "https://picsum.photos/seed/381/800/800",
+        "alt": "Bedside Table Pair - front view",
         "isDefault": true
       },
       {
-        "id": "img-027b",
-        "url": "https://placehold.co/800x800/3c2a21/d7a86e/png?text=Bedside%20Table%20Pair%0ADetail&font=montserrat",
+        "id": "img-127b",
+        "url": "https://picsum.photos/seed/382/800/800",
         "alt": "Bedside Table Pair - detail view",
         "isDefault": false
       },
       {
-        "id": "img-027c",
-        "url": "https://placehold.co/800x800/3c2a21/d7a86e/png?text=Bedside%20Table%20Pair%0ASide%20View&font=montserrat",
+        "id": "img-127c",
+        "url": "https://picsum.photos/seed/383/800/800",
         "alt": "Bedside Table Pair - side view",
         "isDefault": false
       }
@@ -1913,20 +1913,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-028a",
-        "url": "https://placehold.co/800x800/3c2a21/d7a86e/png?text=Mirrored%20Dressing%20Table%20Set&font=montserrat",
-        "alt": "Mirrored Dressing Table Set - main product image",
+        "id": "img-128a",
+        "url": "https://picsum.photos/seed/384/800/800",
+        "alt": "Mirrored Dressing Table Set - front view",
         "isDefault": true
       },
       {
-        "id": "img-028b",
-        "url": "https://placehold.co/800x800/3c2a21/d7a86e/png?text=Mirrored%20Dressing%20Table%20Set%0ADetail&font=montserrat",
+        "id": "img-128b",
+        "url": "https://picsum.photos/seed/385/800/800",
         "alt": "Mirrored Dressing Table Set - detail view",
         "isDefault": false
       },
       {
-        "id": "img-028c",
-        "url": "https://placehold.co/800x800/3c2a21/d7a86e/png?text=Mirrored%20Dressing%20Table%20Set%0ASide%20View&font=montserrat",
+        "id": "img-128c",
+        "url": "https://picsum.photos/seed/386/800/800",
         "alt": "Mirrored Dressing Table Set - side view",
         "isDefault": false
       }
@@ -1973,20 +1973,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-029a",
-        "url": "https://placehold.co/800x800/3c2a21/d7a86e/png?text=Queen%20Memory%20Foam%20Mattress&font=montserrat",
-        "alt": "Queen Memory Foam Mattress - main product image",
+        "id": "img-129a",
+        "url": "https://picsum.photos/seed/387/800/800",
+        "alt": "Queen Memory Foam Mattress - front view",
         "isDefault": true
       },
       {
-        "id": "img-029b",
-        "url": "https://placehold.co/800x800/3c2a21/d7a86e/png?text=Queen%20Memory%20Foam%20Mattress%0ADetail&font=montserrat",
+        "id": "img-129b",
+        "url": "https://picsum.photos/seed/388/800/800",
         "alt": "Queen Memory Foam Mattress - detail view",
         "isDefault": false
       },
       {
-        "id": "img-029c",
-        "url": "https://placehold.co/800x800/3c2a21/d7a86e/png?text=Queen%20Memory%20Foam%20Mattress%0ASide%20View&font=montserrat",
+        "id": "img-129c",
+        "url": "https://picsum.photos/seed/389/800/800",
         "alt": "Queen Memory Foam Mattress - side view",
         "isDefault": false
       }
@@ -2031,20 +2031,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-030a",
-        "url": "https://placehold.co/800x800/3c2a21/d7a86e/png?text=Standing%20Desk%20Converter&font=montserrat",
-        "alt": "Standing Desk Converter - main product image",
+        "id": "img-130a",
+        "url": "https://picsum.photos/seed/390/800/800",
+        "alt": "Standing Desk Converter - front view",
         "isDefault": true
       },
       {
-        "id": "img-030b",
-        "url": "https://placehold.co/800x800/3c2a21/d7a86e/png?text=Standing%20Desk%20Converter%0ADetail&font=montserrat",
+        "id": "img-130b",
+        "url": "https://picsum.photos/seed/391/800/800",
         "alt": "Standing Desk Converter - detail view",
         "isDefault": false
       },
       {
-        "id": "img-030c",
-        "url": "https://placehold.co/800x800/3c2a21/d7a86e/png?text=Standing%20Desk%20Converter%0ASide%20View&font=montserrat",
+        "id": "img-130c",
+        "url": "https://picsum.photos/seed/392/800/800",
         "alt": "Standing Desk Converter - side view",
         "isDefault": false
       }
@@ -2092,20 +2092,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-031a",
-        "url": "https://placehold.co/800x800/004e92/ffffff/png?text=FitWalk%20Walking%20Pad&font=montserrat",
-        "alt": "FitWalk Walking Pad - main product image",
+        "id": "img-131a",
+        "url": "https://picsum.photos/seed/393/800/800",
+        "alt": "FitWalk Walking Pad - front view",
         "isDefault": true
       },
       {
-        "id": "img-031b",
-        "url": "https://placehold.co/800x800/004e92/ffffff/png?text=FitWalk%20Walking%20Pad%0ADetail&font=montserrat",
+        "id": "img-131b",
+        "url": "https://picsum.photos/seed/394/800/800",
         "alt": "FitWalk Walking Pad - detail view",
         "isDefault": false
       },
       {
-        "id": "img-031c",
-        "url": "https://placehold.co/800x800/004e92/ffffff/png?text=FitWalk%20Walking%20Pad%0ASide%20View&font=montserrat",
+        "id": "img-131c",
+        "url": "https://picsum.photos/seed/395/800/800",
         "alt": "FitWalk Walking Pad - side view",
         "isDefault": false
       }
@@ -2155,20 +2155,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-032a",
-        "url": "https://placehold.co/800x800/004e92/ffffff/png?text=PowerVibe%20Vibration%20Plate&font=montserrat",
-        "alt": "PowerVibe Vibration Plate - main product image",
+        "id": "img-132a",
+        "url": "https://picsum.photos/seed/396/800/800",
+        "alt": "PowerVibe Vibration Plate - front view",
         "isDefault": true
       },
       {
-        "id": "img-032b",
-        "url": "https://placehold.co/800x800/004e92/ffffff/png?text=PowerVibe%20Vibration%20Plate%0ADetail&font=montserrat",
+        "id": "img-132b",
+        "url": "https://picsum.photos/seed/397/800/800",
         "alt": "PowerVibe Vibration Plate - detail view",
         "isDefault": false
       },
       {
-        "id": "img-032c",
-        "url": "https://placehold.co/800x800/004e92/ffffff/png?text=PowerVibe%20Vibration%20Plate%0ASide%20View&font=montserrat",
+        "id": "img-132c",
+        "url": "https://picsum.photos/seed/398/800/800",
         "alt": "PowerVibe Vibration Plate - side view",
         "isDefault": false
       }
@@ -2212,20 +2212,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-033a",
-        "url": "https://placehold.co/800x800/004e92/ffffff/png?text=Adjustable%20Dumbbells%2024kg&font=montserrat",
-        "alt": "Adjustable Dumbbells 24kg - main product image",
+        "id": "img-133a",
+        "url": "https://picsum.photos/seed/399/800/800",
+        "alt": "Adjustable Dumbbells 24kg - front view",
         "isDefault": true
       },
       {
-        "id": "img-033b",
-        "url": "https://placehold.co/800x800/004e92/ffffff/png?text=Adjustable%20Dumbbells%2024kg%0ADetail&font=montserrat",
+        "id": "img-133b",
+        "url": "https://picsum.photos/seed/400/800/800",
         "alt": "Adjustable Dumbbells 24kg - detail view",
         "isDefault": false
       },
       {
-        "id": "img-033c",
-        "url": "https://placehold.co/800x800/004e92/ffffff/png?text=Adjustable%20Dumbbells%2024kg%0ASide%20View&font=montserrat",
+        "id": "img-133c",
+        "url": "https://picsum.photos/seed/401/800/800",
         "alt": "Adjustable Dumbbells 24kg - side view",
         "isDefault": false
       }
@@ -2273,20 +2273,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-034a",
-        "url": "https://placehold.co/800x800/004e92/ffffff/png?text=ZenFlex%20Yoga%20Mat&font=montserrat",
-        "alt": "ZenFlex Yoga Mat - main product image",
+        "id": "img-134a",
+        "url": "https://picsum.photos/seed/402/800/800",
+        "alt": "ZenFlex Yoga Mat - front view",
         "isDefault": true
       },
       {
-        "id": "img-034b",
-        "url": "https://placehold.co/800x800/004e92/ffffff/png?text=ZenFlex%20Yoga%20Mat%0ADetail&font=montserrat",
+        "id": "img-134b",
+        "url": "https://picsum.photos/seed/403/800/800",
         "alt": "ZenFlex Yoga Mat - detail view",
         "isDefault": false
       },
       {
-        "id": "img-034c",
-        "url": "https://placehold.co/800x800/004e92/ffffff/png?text=ZenFlex%20Yoga%20Mat%0ASide%20View&font=montserrat",
+        "id": "img-134c",
+        "url": "https://picsum.photos/seed/404/800/800",
         "alt": "ZenFlex Yoga Mat - side view",
         "isDefault": false
       }
@@ -2357,20 +2357,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-035a",
-        "url": "https://placehold.co/800x800/004e92/ffffff/png?text=Resistance%20Band%20Set%205pc&font=montserrat",
-        "alt": "Resistance Band Set 5pc - main product image",
+        "id": "img-135a",
+        "url": "https://picsum.photos/seed/405/800/800",
+        "alt": "Resistance Band Set 5pc - front view",
         "isDefault": true
       },
       {
-        "id": "img-035b",
-        "url": "https://placehold.co/800x800/004e92/ffffff/png?text=Resistance%20Band%20Set%205pc%0ADetail&font=montserrat",
+        "id": "img-135b",
+        "url": "https://picsum.photos/seed/406/800/800",
         "alt": "Resistance Band Set 5pc - detail view",
         "isDefault": false
       },
       {
-        "id": "img-035c",
-        "url": "https://placehold.co/800x800/004e92/ffffff/png?text=Resistance%20Band%20Set%205pc%0ASide%20View&font=montserrat",
+        "id": "img-135c",
+        "url": "https://picsum.photos/seed/407/800/800",
         "alt": "Resistance Band Set 5pc - side view",
         "isDefault": false
       }
@@ -2413,20 +2413,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-036a",
-        "url": "https://placehold.co/800x800/212121/ff6f00/png?text=ASICS%20Gel-Venture%209&font=montserrat",
-        "alt": "ASICS Gel-Venture 9 - main product image",
+        "id": "img-136a",
+        "url": "https://picsum.photos/seed/408/800/800",
+        "alt": "ASICS Gel-Venture 9 - front view",
         "isDefault": true
       },
       {
-        "id": "img-036b",
-        "url": "https://placehold.co/800x800/212121/ff6f00/png?text=ASICS%20Gel-Venture%209%0ADetail&font=montserrat",
+        "id": "img-136b",
+        "url": "https://picsum.photos/seed/409/800/800",
         "alt": "ASICS Gel-Venture 9 - detail view",
         "isDefault": false
       },
       {
-        "id": "img-036c",
-        "url": "https://placehold.co/800x800/212121/ff6f00/png?text=ASICS%20Gel-Venture%209%0ASide%20View&font=montserrat",
+        "id": "img-136c",
+        "url": "https://picsum.photos/seed/410/800/800",
         "alt": "ASICS Gel-Venture 9 - side view",
         "isDefault": false
       }
@@ -2508,20 +2508,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-037a",
-        "url": "https://placehold.co/800x800/212121/ff6f00/png?text=ASICS%20Gel-Kayano%2030&font=montserrat",
-        "alt": "ASICS Gel-Kayano 30 - main product image",
+        "id": "img-137a",
+        "url": "https://picsum.photos/seed/411/800/800",
+        "alt": "ASICS Gel-Kayano 30 - front view",
         "isDefault": true
       },
       {
-        "id": "img-037b",
-        "url": "https://placehold.co/800x800/212121/ff6f00/png?text=ASICS%20Gel-Kayano%2030%0ADetail&font=montserrat",
+        "id": "img-137b",
+        "url": "https://picsum.photos/seed/412/800/800",
         "alt": "ASICS Gel-Kayano 30 - detail view",
         "isDefault": false
       },
       {
-        "id": "img-037c",
-        "url": "https://placehold.co/800x800/212121/ff6f00/png?text=ASICS%20Gel-Kayano%2030%0ASide%20View&font=montserrat",
+        "id": "img-137c",
+        "url": "https://picsum.photos/seed/413/800/800",
         "alt": "ASICS Gel-Kayano 30 - side view",
         "isDefault": false
       }
@@ -2610,20 +2610,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-038a",
-        "url": "https://placehold.co/800x800/212121/ff6f00/png?text=UrbanStep%20Canvas%20Sneakers&font=montserrat",
-        "alt": "UrbanStep Canvas Sneakers - main product image",
+        "id": "img-138a",
+        "url": "https://picsum.photos/seed/414/800/800",
+        "alt": "UrbanStep Canvas Sneakers - front view",
         "isDefault": true
       },
       {
-        "id": "img-038b",
-        "url": "https://placehold.co/800x800/212121/ff6f00/png?text=UrbanStep%20Canvas%20Sneakers%0ADetail&font=montserrat",
+        "id": "img-138b",
+        "url": "https://picsum.photos/seed/415/800/800",
         "alt": "UrbanStep Canvas Sneakers - detail view",
         "isDefault": false
       },
       {
-        "id": "img-038c",
-        "url": "https://placehold.co/800x800/212121/ff6f00/png?text=UrbanStep%20Canvas%20Sneakers%0ASide%20View&font=montserrat",
+        "id": "img-138c",
+        "url": "https://picsum.photos/seed/416/800/800",
         "alt": "UrbanStep Canvas Sneakers - side view",
         "isDefault": false
       }
@@ -2713,20 +2713,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-039a",
-        "url": "https://placehold.co/800x800/212121/ff6f00/png?text=BrownStone%20Chelsea%20Boots&font=montserrat",
-        "alt": "BrownStone Chelsea Boots - main product image",
+        "id": "img-139a",
+        "url": "https://picsum.photos/seed/417/800/800",
+        "alt": "BrownStone Chelsea Boots - front view",
         "isDefault": true
       },
       {
-        "id": "img-039b",
-        "url": "https://placehold.co/800x800/212121/ff6f00/png?text=BrownStone%20Chelsea%20Boots%0ADetail&font=montserrat",
+        "id": "img-139b",
+        "url": "https://picsum.photos/seed/418/800/800",
         "alt": "BrownStone Chelsea Boots - detail view",
         "isDefault": false
       },
       {
-        "id": "img-039c",
-        "url": "https://placehold.co/800x800/212121/ff6f00/png?text=BrownStone%20Chelsea%20Boots%0ASide%20View&font=montserrat",
+        "id": "img-139c",
+        "url": "https://picsum.photos/seed/419/800/800",
         "alt": "BrownStone Chelsea Boots - side view",
         "isDefault": false
       }
@@ -2805,20 +2805,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-040a",
-        "url": "https://placehold.co/800x800/212121/ff6f00/png?text=ComfyStep%20Slides&font=montserrat",
-        "alt": "ComfyStep Slides - main product image",
+        "id": "img-140a",
+        "url": "https://picsum.photos/seed/420/800/800",
+        "alt": "ComfyStep Slides - front view",
         "isDefault": true
       },
       {
-        "id": "img-040b",
-        "url": "https://placehold.co/800x800/212121/ff6f00/png?text=ComfyStep%20Slides%0ADetail&font=montserrat",
+        "id": "img-140b",
+        "url": "https://picsum.photos/seed/421/800/800",
         "alt": "ComfyStep Slides - detail view",
         "isDefault": false
       },
       {
-        "id": "img-040c",
-        "url": "https://placehold.co/800x800/212121/ff6f00/png?text=ComfyStep%20Slides%0ASide%20View&font=montserrat",
+        "id": "img-140c",
+        "url": "https://picsum.photos/seed/422/800/800",
         "alt": "ComfyStep Slides - side view",
         "isDefault": false
       }
@@ -2893,20 +2893,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-041a",
-        "url": "https://placehold.co/800x800/263238/80cbc4/png?text=3pc%20Luggage%20Set&font=montserrat",
-        "alt": "3pc Luggage Set - main product image",
+        "id": "img-141a",
+        "url": "https://picsum.photos/seed/423/800/800",
+        "alt": "3pc Luggage Set - front view",
         "isDefault": true
       },
       {
-        "id": "img-041b",
-        "url": "https://placehold.co/800x800/263238/80cbc4/png?text=3pc%20Luggage%20Set%0ADetail&font=montserrat",
+        "id": "img-141b",
+        "url": "https://picsum.photos/seed/424/800/800",
         "alt": "3pc Luggage Set - detail view",
         "isDefault": false
       },
       {
-        "id": "img-041c",
-        "url": "https://placehold.co/800x800/263238/80cbc4/png?text=3pc%20Luggage%20Set%0ASide%20View&font=montserrat",
+        "id": "img-141c",
+        "url": "https://picsum.photos/seed/425/800/800",
         "alt": "3pc Luggage Set - side view",
         "isDefault": false
       }
@@ -2976,20 +2976,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-042a",
-        "url": "https://placehold.co/800x800/263238/80cbc4/png?text=Anti-Theft%20Laptop%20Backpack&font=montserrat",
-        "alt": "Anti-Theft Laptop Backpack - main product image",
+        "id": "img-142a",
+        "url": "https://picsum.photos/seed/426/800/800",
+        "alt": "Anti-Theft Laptop Backpack - front view",
         "isDefault": true
       },
       {
-        "id": "img-042b",
-        "url": "https://placehold.co/800x800/263238/80cbc4/png?text=Anti-Theft%20Laptop%20Backpack%0ADetail&font=montserrat",
+        "id": "img-142b",
+        "url": "https://picsum.photos/seed/427/800/800",
         "alt": "Anti-Theft Laptop Backpack - detail view",
         "isDefault": false
       },
       {
-        "id": "img-042c",
-        "url": "https://placehold.co/800x800/263238/80cbc4/png?text=Anti-Theft%20Laptop%20Backpack%0ASide%20View&font=montserrat",
+        "id": "img-142c",
+        "url": "https://picsum.photos/seed/428/800/800",
         "alt": "Anti-Theft Laptop Backpack - side view",
         "isDefault": false
       }
@@ -3036,20 +3036,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-043a",
-        "url": "https://placehold.co/800x800/263238/80cbc4/png?text=Canvas%20Duffel%20Bag%2050L&font=montserrat",
-        "alt": "Canvas Duffel Bag 50L - main product image",
+        "id": "img-143a",
+        "url": "https://picsum.photos/seed/429/800/800",
+        "alt": "Canvas Duffel Bag 50L - front view",
         "isDefault": true
       },
       {
-        "id": "img-043b",
-        "url": "https://placehold.co/800x800/263238/80cbc4/png?text=Canvas%20Duffel%20Bag%2050L%0ADetail&font=montserrat",
+        "id": "img-143b",
+        "url": "https://picsum.photos/seed/430/800/800",
         "alt": "Canvas Duffel Bag 50L - detail view",
         "isDefault": false
       },
       {
-        "id": "img-043c",
-        "url": "https://placehold.co/800x800/263238/80cbc4/png?text=Canvas%20Duffel%20Bag%2050L%0ASide%20View&font=montserrat",
+        "id": "img-143c",
+        "url": "https://picsum.photos/seed/431/800/800",
         "alt": "Canvas Duffel Bag 50L - side view",
         "isDefault": false
       }
@@ -3109,20 +3109,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-044a",
-        "url": "https://placehold.co/800x800/263238/80cbc4/png?text=Packing%20Cubes%206pc%20Set&font=montserrat",
-        "alt": "Packing Cubes 6pc Set - main product image",
+        "id": "img-144a",
+        "url": "https://picsum.photos/seed/432/800/800",
+        "alt": "Packing Cubes 6pc Set - front view",
         "isDefault": true
       },
       {
-        "id": "img-044b",
-        "url": "https://placehold.co/800x800/263238/80cbc4/png?text=Packing%20Cubes%206pc%20Set%0ADetail&font=montserrat",
+        "id": "img-144b",
+        "url": "https://picsum.photos/seed/433/800/800",
         "alt": "Packing Cubes 6pc Set - detail view",
         "isDefault": false
       },
       {
-        "id": "img-044c",
-        "url": "https://placehold.co/800x800/263238/80cbc4/png?text=Packing%20Cubes%206pc%20Set%0ASide%20View&font=montserrat",
+        "id": "img-144c",
+        "url": "https://picsum.photos/seed/434/800/800",
         "alt": "Packing Cubes 6pc Set - side view",
         "isDefault": false
       }
@@ -3183,20 +3183,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-045a",
-        "url": "https://placehold.co/800x800/333333/ffab00/png?text=150pc%20Socket%20Set&font=montserrat",
-        "alt": "150pc Socket Set - main product image",
+        "id": "img-145a",
+        "url": "https://picsum.photos/seed/435/800/800",
+        "alt": "150pc Socket Set - front view",
         "isDefault": true
       },
       {
-        "id": "img-045b",
-        "url": "https://placehold.co/800x800/333333/ffab00/png?text=150pc%20Socket%20Set%0ADetail&font=montserrat",
+        "id": "img-145b",
+        "url": "https://picsum.photos/seed/436/800/800",
         "alt": "150pc Socket Set - detail view",
         "isDefault": false
       },
       {
-        "id": "img-045c",
-        "url": "https://placehold.co/800x800/333333/ffab00/png?text=150pc%20Socket%20Set%0ASide%20View&font=montserrat",
+        "id": "img-145c",
+        "url": "https://picsum.photos/seed/437/800/800",
         "alt": "150pc Socket Set - side view",
         "isDefault": false
       }
@@ -3244,20 +3244,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-046a",
-        "url": "https://placehold.co/800x800/333333/ffab00/png?text=5-Tier%20Storage%20Shelf&font=montserrat",
-        "alt": "5-Tier Storage Shelf - main product image",
+        "id": "img-146a",
+        "url": "https://picsum.photos/seed/438/800/800",
+        "alt": "5-Tier Storage Shelf - front view",
         "isDefault": true
       },
       {
-        "id": "img-046b",
-        "url": "https://placehold.co/800x800/333333/ffab00/png?text=5-Tier%20Storage%20Shelf%0ADetail&font=montserrat",
+        "id": "img-146b",
+        "url": "https://picsum.photos/seed/439/800/800",
         "alt": "5-Tier Storage Shelf - detail view",
         "isDefault": false
       },
       {
-        "id": "img-046c",
-        "url": "https://placehold.co/800x800/333333/ffab00/png?text=5-Tier%20Storage%20Shelf%0ASide%20View&font=montserrat",
+        "id": "img-146c",
+        "url": "https://picsum.photos/seed/440/800/800",
         "alt": "5-Tier Storage Shelf - side view",
         "isDefault": false
       }
@@ -3305,20 +3305,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-047a",
-        "url": "https://placehold.co/800x800/333333/ffab00/png?text=Digital%20Safe%2025L&font=montserrat",
-        "alt": "Digital Safe 25L - main product image",
+        "id": "img-147a",
+        "url": "https://picsum.photos/seed/441/800/800",
+        "alt": "Digital Safe 25L - front view",
         "isDefault": true
       },
       {
-        "id": "img-047b",
-        "url": "https://placehold.co/800x800/333333/ffab00/png?text=Digital%20Safe%2025L%0ADetail&font=montserrat",
+        "id": "img-147b",
+        "url": "https://picsum.photos/seed/442/800/800",
         "alt": "Digital Safe 25L - detail view",
         "isDefault": false
       },
       {
-        "id": "img-047c",
-        "url": "https://placehold.co/800x800/333333/ffab00/png?text=Digital%20Safe%2025L%0ASide%20View&font=montserrat",
+        "id": "img-147c",
+        "url": "https://picsum.photos/seed/443/800/800",
         "alt": "Digital Safe 25L - side view",
         "isDefault": false
       }
@@ -3368,20 +3368,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-048a",
-        "url": "https://placehold.co/800x800/333333/ffab00/png?text=Cordless%20Drill%20Set&font=montserrat",
-        "alt": "Cordless Drill Set - main product image",
+        "id": "img-148a",
+        "url": "https://picsum.photos/seed/444/800/800",
+        "alt": "Cordless Drill Set - front view",
         "isDefault": true
       },
       {
-        "id": "img-048b",
-        "url": "https://placehold.co/800x800/333333/ffab00/png?text=Cordless%20Drill%20Set%0ADetail&font=montserrat",
+        "id": "img-148b",
+        "url": "https://picsum.photos/seed/445/800/800",
         "alt": "Cordless Drill Set - detail view",
         "isDefault": false
       },
       {
-        "id": "img-048c",
-        "url": "https://placehold.co/800x800/333333/ffab00/png?text=Cordless%20Drill%20Set%0ASide%20View&font=montserrat",
+        "id": "img-148c",
+        "url": "https://picsum.photos/seed/446/800/800",
         "alt": "Cordless Drill Set - side view",
         "isDefault": false
       }
@@ -3428,20 +3428,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-049a",
-        "url": "https://placehold.co/800x800/f06292/ffffff/png?text=Pebble%20Gear%20Kids%20Tablet&font=montserrat",
-        "alt": "Pebble Gear Kids Tablet - main product image",
+        "id": "img-149a",
+        "url": "https://picsum.photos/seed/447/800/800",
+        "alt": "Pebble Gear Kids Tablet - front view",
         "isDefault": true
       },
       {
-        "id": "img-049b",
-        "url": "https://placehold.co/800x800/f06292/ffffff/png?text=Pebble%20Gear%20Kids%20Tablet%0ADetail&font=montserrat",
+        "id": "img-149b",
+        "url": "https://picsum.photos/seed/448/800/800",
         "alt": "Pebble Gear Kids Tablet - detail view",
         "isDefault": false
       },
       {
-        "id": "img-049c",
-        "url": "https://placehold.co/800x800/f06292/ffffff/png?text=Pebble%20Gear%20Kids%20Tablet%0ASide%20View&font=montserrat",
+        "id": "img-149c",
+        "url": "https://picsum.photos/seed/449/800/800",
         "alt": "Pebble Gear Kids Tablet - side view",
         "isDefault": false
       }
@@ -3503,20 +3503,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-050a",
-        "url": "https://placehold.co/800x800/f06292/ffffff/png?text=100pc%20Building%20Blocks&font=montserrat",
-        "alt": "100pc Building Blocks - main product image",
+        "id": "img-150a",
+        "url": "https://picsum.photos/seed/450/800/800",
+        "alt": "100pc Building Blocks - front view",
         "isDefault": true
       },
       {
-        "id": "img-050b",
-        "url": "https://placehold.co/800x800/f06292/ffffff/png?text=100pc%20Building%20Blocks%0ADetail&font=montserrat",
+        "id": "img-150b",
+        "url": "https://picsum.photos/seed/451/800/800",
         "alt": "100pc Building Blocks - detail view",
         "isDefault": false
       },
       {
-        "id": "img-050c",
-        "url": "https://placehold.co/800x800/f06292/ffffff/png?text=100pc%20Building%20Blocks%0ASide%20View&font=montserrat",
+        "id": "img-150c",
+        "url": "https://picsum.photos/seed/452/800/800",
         "alt": "100pc Building Blocks - side view",
         "isDefault": false
       }
@@ -3563,20 +3563,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-051a",
-        "url": "https://placehold.co/800x800/f06292/ffffff/png?text=SnugBaby%20Carrier&font=montserrat",
-        "alt": "SnugBaby Carrier - main product image",
+        "id": "img-151a",
+        "url": "https://picsum.photos/seed/453/800/800",
+        "alt": "SnugBaby Carrier - front view",
         "isDefault": true
       },
       {
-        "id": "img-051b",
-        "url": "https://placehold.co/800x800/f06292/ffffff/png?text=SnugBaby%20Carrier%0ADetail&font=montserrat",
+        "id": "img-151b",
+        "url": "https://picsum.photos/seed/454/800/800",
         "alt": "SnugBaby Carrier - detail view",
         "isDefault": false
       },
       {
-        "id": "img-051c",
-        "url": "https://placehold.co/800x800/f06292/ffffff/png?text=SnugBaby%20Carrier%0ASide%20View&font=montserrat",
+        "id": "img-151c",
+        "url": "https://picsum.photos/seed/455/800/800",
         "alt": "SnugBaby Carrier - side view",
         "isDefault": false
       }
@@ -3637,20 +3637,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-052a",
-        "url": "https://placehold.co/800x800/f06292/ffffff/png?text=Sleep%20Suit%203-Pack&font=montserrat",
-        "alt": "Sleep Suit 3-Pack - main product image",
+        "id": "img-152a",
+        "url": "https://picsum.photos/seed/456/800/800",
+        "alt": "Sleep Suit 3-Pack - front view",
         "isDefault": true
       },
       {
-        "id": "img-052b",
-        "url": "https://placehold.co/800x800/f06292/ffffff/png?text=Sleep%20Suit%203-Pack%0ADetail&font=montserrat",
+        "id": "img-152b",
+        "url": "https://picsum.photos/seed/457/800/800",
         "alt": "Sleep Suit 3-Pack - detail view",
         "isDefault": false
       },
       {
-        "id": "img-052c",
-        "url": "https://placehold.co/800x800/f06292/ffffff/png?text=Sleep%20Suit%203-Pack%0ASide%20View&font=montserrat",
+        "id": "img-152c",
+        "url": "https://picsum.photos/seed/458/800/800",
         "alt": "Sleep Suit 3-Pack - side view",
         "isDefault": false
       }
@@ -3722,20 +3722,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-053a",
-        "url": "https://placehold.co/800x800/37474f/90a4ae/png?text=Wireless%20Label%20Printer&font=montserrat",
-        "alt": "Wireless Label Printer - main product image",
+        "id": "img-153a",
+        "url": "https://picsum.photos/seed/459/800/800",
+        "alt": "Wireless Label Printer - front view",
         "isDefault": true
       },
       {
-        "id": "img-053b",
-        "url": "https://placehold.co/800x800/37474f/90a4ae/png?text=Wireless%20Label%20Printer%0ADetail&font=montserrat",
+        "id": "img-153b",
+        "url": "https://picsum.photos/seed/460/800/800",
         "alt": "Wireless Label Printer - detail view",
         "isDefault": false
       },
       {
-        "id": "img-053c",
-        "url": "https://placehold.co/800x800/37474f/90a4ae/png?text=Wireless%20Label%20Printer%0ASide%20View&font=montserrat",
+        "id": "img-153c",
+        "url": "https://picsum.photos/seed/461/800/800",
         "alt": "Wireless Label Printer - side view",
         "isDefault": false
       }
@@ -3785,20 +3785,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-054a",
-        "url": "https://placehold.co/800x800/37474f/90a4ae/png?text=Desk%20Organiser%20Set&font=montserrat",
-        "alt": "Desk Organiser Set - main product image",
+        "id": "img-154a",
+        "url": "https://picsum.photos/seed/462/800/800",
+        "alt": "Desk Organiser Set - front view",
         "isDefault": true
       },
       {
-        "id": "img-054b",
-        "url": "https://placehold.co/800x800/37474f/90a4ae/png?text=Desk%20Organiser%20Set%0ADetail&font=montserrat",
+        "id": "img-154b",
+        "url": "https://picsum.photos/seed/463/800/800",
         "alt": "Desk Organiser Set - detail view",
         "isDefault": false
       },
       {
-        "id": "img-054c",
-        "url": "https://placehold.co/800x800/37474f/90a4ae/png?text=Desk%20Organiser%20Set%0ASide%20View&font=montserrat",
+        "id": "img-154c",
+        "url": "https://picsum.photos/seed/464/800/800",
         "alt": "Desk Organiser Set - side view",
         "isDefault": false
       }
@@ -3860,20 +3860,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-055a",
-        "url": "https://placehold.co/800x800/37474f/90a4ae/png?text=Magnetic%20Whiteboard%20120x90&font=montserrat",
-        "alt": "Magnetic Whiteboard 120x90 - main product image",
+        "id": "img-155a",
+        "url": "https://picsum.photos/seed/465/800/800",
+        "alt": "Magnetic Whiteboard 120x90 - front view",
         "isDefault": true
       },
       {
-        "id": "img-055b",
-        "url": "https://placehold.co/800x800/37474f/90a4ae/png?text=Magnetic%20Whiteboard%20120x90%0ADetail&font=montserrat",
+        "id": "img-155b",
+        "url": "https://picsum.photos/seed/466/800/800",
         "alt": "Magnetic Whiteboard 120x90 - detail view",
         "isDefault": false
       },
       {
-        "id": "img-055c",
-        "url": "https://placehold.co/800x800/37474f/90a4ae/png?text=Magnetic%20Whiteboard%20120x90%0ASide%20View&font=montserrat",
+        "id": "img-155c",
+        "url": "https://picsum.photos/seed/467/800/800",
         "alt": "Magnetic Whiteboard 120x90 - side view",
         "isDefault": false
       }
@@ -3915,20 +3915,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-056a",
-        "url": "https://placehold.co/800x800/4a148c/ce93d8/png?text=SA%20Book%20Bundle%205pk&font=montserrat",
-        "alt": "SA Book Bundle 5pk - main product image",
+        "id": "img-156a",
+        "url": "https://picsum.photos/seed/468/800/800",
+        "alt": "SA Book Bundle 5pk - front view",
         "isDefault": true
       },
       {
-        "id": "img-056b",
-        "url": "https://placehold.co/800x800/4a148c/ce93d8/png?text=SA%20Book%20Bundle%205pk%0ADetail&font=montserrat",
+        "id": "img-156b",
+        "url": "https://picsum.photos/seed/469/800/800",
         "alt": "SA Book Bundle 5pk - detail view",
         "isDefault": false
       },
       {
-        "id": "img-056c",
-        "url": "https://placehold.co/800x800/4a148c/ce93d8/png?text=SA%20Book%20Bundle%205pk%0ASide%20View&font=montserrat",
+        "id": "img-156c",
+        "url": "https://picsum.photos/seed/470/800/800",
         "alt": "SA Book Bundle 5pk - side view",
         "isDefault": false
       }
@@ -3972,20 +3972,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-057a",
-        "url": "https://placehold.co/800x800/4a148c/ce93d8/png?text=Streaming%20Gift%20Card%20R500&font=montserrat",
-        "alt": "Streaming Gift Card R500 - main product image",
+        "id": "img-157a",
+        "url": "https://picsum.photos/seed/471/800/800",
+        "alt": "Streaming Gift Card R500 - front view",
         "isDefault": true
       },
       {
-        "id": "img-057b",
-        "url": "https://placehold.co/800x800/4a148c/ce93d8/png?text=Streaming%20Gift%20Card%20R500%0ADetail&font=montserrat",
+        "id": "img-157b",
+        "url": "https://picsum.photos/seed/472/800/800",
         "alt": "Streaming Gift Card R500 - detail view",
         "isDefault": false
       },
       {
-        "id": "img-057c",
-        "url": "https://placehold.co/800x800/4a148c/ce93d8/png?text=Streaming%20Gift%20Card%20R500%0ASide%20View&font=montserrat",
+        "id": "img-157c",
+        "url": "https://picsum.photos/seed/473/800/800",
         "alt": "Streaming Gift Card R500 - side view",
         "isDefault": false
       }
@@ -4028,20 +4028,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-058a",
-        "url": "https://placehold.co/800x800/4a148c/ce93d8/png?text=6mo%20Audiobook%20Subscription&font=montserrat",
-        "alt": "6mo Audiobook Subscription - main product image",
+        "id": "img-158a",
+        "url": "https://picsum.photos/seed/474/800/800",
+        "alt": "6mo Audiobook Subscription - front view",
         "isDefault": true
       },
       {
-        "id": "img-058b",
-        "url": "https://placehold.co/800x800/4a148c/ce93d8/png?text=6mo%20Audiobook%20Subscription%0ADetail&font=montserrat",
+        "id": "img-158b",
+        "url": "https://picsum.photos/seed/475/800/800",
         "alt": "6mo Audiobook Subscription - detail view",
         "isDefault": false
       },
       {
-        "id": "img-058c",
-        "url": "https://placehold.co/800x800/4a148c/ce93d8/png?text=6mo%20Audiobook%20Subscription%0ASide%20View&font=montserrat",
+        "id": "img-158c",
+        "url": "https://picsum.photos/seed/476/800/800",
         "alt": "6mo Audiobook Subscription - side view",
         "isDefault": false
       }
@@ -4089,20 +4089,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-059a",
-        "url": "https://placehold.co/800x800/f4001a/ffffff/png?text=Retro%20Handheld%20Console&font=montserrat",
-        "alt": "Retro Handheld Console - main product image",
+        "id": "img-159a",
+        "url": "https://picsum.photos/seed/477/800/800",
+        "alt": "Retro Handheld Console - front view",
         "isDefault": true
       },
       {
-        "id": "img-059b",
-        "url": "https://placehold.co/800x800/f4001a/ffffff/png?text=Retro%20Handheld%20Console%0ADetail&font=montserrat",
+        "id": "img-159b",
+        "url": "https://picsum.photos/seed/478/800/800",
         "alt": "Retro Handheld Console - detail view",
         "isDefault": false
       },
       {
-        "id": "img-059c",
-        "url": "https://placehold.co/800x800/f4001a/ffffff/png?text=Retro%20Handheld%20Console%0ASide%20View&font=montserrat",
+        "id": "img-159c",
+        "url": "https://picsum.photos/seed/479/800/800",
         "alt": "Retro Handheld Console - side view",
         "isDefault": false
       }
@@ -4175,20 +4175,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-060a",
-        "url": "https://placehold.co/800x800/f4001a/ffffff/png?text=Board%20Game%20Collection&font=montserrat",
-        "alt": "Board Game Collection - main product image",
+        "id": "img-160a",
+        "url": "https://picsum.photos/seed/480/800/800",
+        "alt": "Board Game Collection - front view",
         "isDefault": true
       },
       {
-        "id": "img-060b",
-        "url": "https://placehold.co/800x800/f4001a/ffffff/png?text=Board%20Game%20Collection%0ADetail&font=montserrat",
+        "id": "img-160b",
+        "url": "https://picsum.photos/seed/481/800/800",
         "alt": "Board Game Collection - detail view",
         "isDefault": false
       },
       {
-        "id": "img-060c",
-        "url": "https://placehold.co/800x800/f4001a/ffffff/png?text=Board%20Game%20Collection%0ASide%20View&font=montserrat",
+        "id": "img-160c",
+        "url": "https://picsum.photos/seed/482/800/800",
         "alt": "Board Game Collection - side view",
         "isDefault": false
       }
@@ -4239,20 +4239,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-061a",
-        "url": "https://placehold.co/800x800/f4001a/ffffff/png?text=RC%20Drift%20Car%201%3A16&font=montserrat",
-        "alt": "RC Drift Car 1:16 - main product image",
+        "id": "img-161a",
+        "url": "https://picsum.photos/seed/483/800/800",
+        "alt": "RC Drift Car 1:16 - front view",
         "isDefault": true
       },
       {
-        "id": "img-061b",
-        "url": "https://placehold.co/800x800/f4001a/ffffff/png?text=RC%20Drift%20Car%201%3A16%0ADetail&font=montserrat",
+        "id": "img-161b",
+        "url": "https://picsum.photos/seed/484/800/800",
         "alt": "RC Drift Car 1:16 - detail view",
         "isDefault": false
       },
       {
-        "id": "img-061c",
-        "url": "https://placehold.co/800x800/f4001a/ffffff/png?text=RC%20Drift%20Car%201%3A16%0ASide%20View&font=montserrat",
+        "id": "img-161c",
+        "url": "https://picsum.photos/seed/485/800/800",
         "alt": "RC Drift Car 1:16 - side view",
         "isDefault": false
       }
@@ -4301,20 +4301,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-062a",
-        "url": "https://placehold.co/800x800/f4001a/ffffff/png?text=100-in-1%20Science%20Kit&font=montserrat",
-        "alt": "100-in-1 Science Kit - main product image",
+        "id": "img-162a",
+        "url": "https://picsum.photos/seed/486/800/800",
+        "alt": "100-in-1 Science Kit - front view",
         "isDefault": true
       },
       {
-        "id": "img-062b",
-        "url": "https://placehold.co/800x800/f4001a/ffffff/png?text=100-in-1%20Science%20Kit%0ADetail&font=montserrat",
+        "id": "img-162b",
+        "url": "https://picsum.photos/seed/487/800/800",
         "alt": "100-in-1 Science Kit - detail view",
         "isDefault": false
       },
       {
-        "id": "img-062c",
-        "url": "https://placehold.co/800x800/f4001a/ffffff/png?text=100-in-1%20Science%20Kit%0ASide%20View&font=montserrat",
+        "id": "img-162c",
+        "url": "https://picsum.photos/seed/488/800/800",
         "alt": "100-in-1 Science Kit - side view",
         "isDefault": false
       }
@@ -4360,20 +4360,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-063a",
-        "url": "https://placehold.co/800x800/1b5e20/a5d6a7/png?text=Orthopaedic%20Pet%20Bed%20L&font=montserrat",
-        "alt": "Orthopaedic Pet Bed L - main product image",
+        "id": "img-163a",
+        "url": "https://picsum.photos/seed/489/800/800",
+        "alt": "Orthopaedic Pet Bed L - front view",
         "isDefault": true
       },
       {
-        "id": "img-063b",
-        "url": "https://placehold.co/800x800/1b5e20/a5d6a7/png?text=Orthopaedic%20Pet%20Bed%20L%0ADetail&font=montserrat",
+        "id": "img-163b",
+        "url": "https://picsum.photos/seed/490/800/800",
         "alt": "Orthopaedic Pet Bed L - detail view",
         "isDefault": false
       },
       {
-        "id": "img-063c",
-        "url": "https://placehold.co/800x800/1b5e20/a5d6a7/png?text=Orthopaedic%20Pet%20Bed%20L%0ASide%20View&font=montserrat",
+        "id": "img-163c",
+        "url": "https://picsum.photos/seed/491/800/800",
         "alt": "Orthopaedic Pet Bed L - side view",
         "isDefault": false
       }
@@ -4439,20 +4439,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-064a",
-        "url": "https://placehold.co/800x800/1b5e20/a5d6a7/png?text=Auto%20Pet%20Feeder%204L&font=montserrat",
-        "alt": "Auto Pet Feeder 4L - main product image",
+        "id": "img-164a",
+        "url": "https://picsum.photos/seed/492/800/800",
+        "alt": "Auto Pet Feeder 4L - front view",
         "isDefault": true
       },
       {
-        "id": "img-064b",
-        "url": "https://placehold.co/800x800/1b5e20/a5d6a7/png?text=Auto%20Pet%20Feeder%204L%0ADetail&font=montserrat",
+        "id": "img-164b",
+        "url": "https://picsum.photos/seed/493/800/800",
         "alt": "Auto Pet Feeder 4L - detail view",
         "isDefault": false
       },
       {
-        "id": "img-064c",
-        "url": "https://placehold.co/800x800/1b5e20/a5d6a7/png?text=Auto%20Pet%20Feeder%204L%0ASide%20View&font=montserrat",
+        "id": "img-164c",
+        "url": "https://picsum.photos/seed/494/800/800",
         "alt": "Auto Pet Feeder 4L - side view",
         "isDefault": false
       }
@@ -4506,20 +4506,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-065a",
-        "url": "https://placehold.co/800x800/1b5e20/a5d6a7/png?text=Pet%20Grooming%20Kit%208pc&font=montserrat",
-        "alt": "Pet Grooming Kit 8pc - main product image",
+        "id": "img-165a",
+        "url": "https://picsum.photos/seed/495/800/800",
+        "alt": "Pet Grooming Kit 8pc - front view",
         "isDefault": true
       },
       {
-        "id": "img-065b",
-        "url": "https://placehold.co/800x800/1b5e20/a5d6a7/png?text=Pet%20Grooming%20Kit%208pc%0ADetail&font=montserrat",
+        "id": "img-165b",
+        "url": "https://picsum.photos/seed/496/800/800",
         "alt": "Pet Grooming Kit 8pc - detail view",
         "isDefault": false
       },
       {
-        "id": "img-065c",
-        "url": "https://placehold.co/800x800/1b5e20/a5d6a7/png?text=Pet%20Grooming%20Kit%208pc%0ASide%20View&font=montserrat",
+        "id": "img-165c",
+        "url": "https://picsum.photos/seed/497/800/800",
         "alt": "Pet Grooming Kit 8pc - side view",
         "isDefault": false
       }
@@ -4567,20 +4567,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-066a",
-        "url": "https://placehold.co/800x800/0d47a1/64b5f6/png?text=Galaxy%20Buds%20FE&font=montserrat",
-        "alt": "Galaxy Buds FE - main product image",
+        "id": "img-166a",
+        "url": "https://picsum.photos/seed/498/800/800",
+        "alt": "Galaxy Buds FE - front view",
         "isDefault": true
       },
       {
-        "id": "img-066b",
-        "url": "https://placehold.co/800x800/0d47a1/64b5f6/png?text=Galaxy%20Buds%20FE%0ADetail&font=montserrat",
+        "id": "img-166b",
+        "url": "https://picsum.photos/seed/499/800/800",
         "alt": "Galaxy Buds FE - detail view",
         "isDefault": false
       },
       {
-        "id": "img-066c",
-        "url": "https://placehold.co/800x800/0d47a1/64b5f6/png?text=Galaxy%20Buds%20FE%0ASide%20View&font=montserrat",
+        "id": "img-166c",
+        "url": "https://picsum.photos/seed/500/800/800",
         "alt": "Galaxy Buds FE - side view",
         "isDefault": false
       }
@@ -4649,20 +4649,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-067a",
-        "url": "https://placehold.co/800x800/0d47a1/64b5f6/png?text=Dreame%20V12%20Vacuum&font=montserrat",
-        "alt": "Dreame V12 Vacuum - main product image",
+        "id": "img-167a",
+        "url": "https://picsum.photos/seed/501/800/800",
+        "alt": "Dreame V12 Vacuum - front view",
         "isDefault": true
       },
       {
-        "id": "img-067b",
-        "url": "https://placehold.co/800x800/0d47a1/64b5f6/png?text=Dreame%20V12%20Vacuum%0ADetail&font=montserrat",
+        "id": "img-167b",
+        "url": "https://picsum.photos/seed/502/800/800",
         "alt": "Dreame V12 Vacuum - detail view",
         "isDefault": false
       },
       {
-        "id": "img-067c",
-        "url": "https://placehold.co/800x800/0d47a1/64b5f6/png?text=Dreame%20V12%20Vacuum%0ASide%20View&font=montserrat",
+        "id": "img-167c",
+        "url": "https://picsum.photos/seed/503/800/800",
         "alt": "Dreame V12 Vacuum - side view",
         "isDefault": false
       }
@@ -4708,20 +4708,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-068a",
-        "url": "https://placehold.co/800x800/0d47a1/64b5f6/png?text=Waterproof%20Phone%20Pouch&font=montserrat",
-        "alt": "Waterproof Phone Pouch - main product image",
+        "id": "img-168a",
+        "url": "https://picsum.photos/seed/504/800/800",
+        "alt": "Waterproof Phone Pouch - front view",
         "isDefault": true
       },
       {
-        "id": "img-068b",
-        "url": "https://placehold.co/800x800/0d47a1/64b5f6/png?text=Waterproof%20Phone%20Pouch%0ADetail&font=montserrat",
+        "id": "img-168b",
+        "url": "https://picsum.photos/seed/505/800/800",
         "alt": "Waterproof Phone Pouch - detail view",
         "isDefault": false
       },
       {
-        "id": "img-068c",
-        "url": "https://placehold.co/800x800/0d47a1/64b5f6/png?text=Waterproof%20Phone%20Pouch%0ASide%20View&font=montserrat",
+        "id": "img-168c",
+        "url": "https://picsum.photos/seed/506/800/800",
         "alt": "Waterproof Phone Pouch - side view",
         "isDefault": false
       }
@@ -4772,20 +4772,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-069a",
-        "url": "https://placehold.co/800x800/2d4059/ea5455/png?text=Knife%20Block%20Set%2014pc&font=montserrat",
-        "alt": "Knife Block Set 14pc - main product image",
+        "id": "img-169a",
+        "url": "https://picsum.photos/seed/507/800/800",
+        "alt": "Knife Block Set 14pc - front view",
         "isDefault": true
       },
       {
-        "id": "img-069b",
-        "url": "https://placehold.co/800x800/2d4059/ea5455/png?text=Knife%20Block%20Set%2014pc%0ADetail&font=montserrat",
+        "id": "img-169b",
+        "url": "https://picsum.photos/seed/508/800/800",
         "alt": "Knife Block Set 14pc - detail view",
         "isDefault": false
       },
       {
-        "id": "img-069c",
-        "url": "https://placehold.co/800x800/2d4059/ea5455/png?text=Knife%20Block%20Set%2014pc%0ASide%20View&font=montserrat",
+        "id": "img-169c",
+        "url": "https://picsum.photos/seed/509/800/800",
         "alt": "Knife Block Set 14pc - side view",
         "isDefault": false
       }
@@ -4833,20 +4833,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-070a",
-        "url": "https://placehold.co/800x800/1a1a2e/e94560/png?text=JBL%20GO%203%20Speaker&font=montserrat",
-        "alt": "JBL GO 3 Speaker - main product image",
+        "id": "img-170a",
+        "url": "https://picsum.photos/seed/510/800/800",
+        "alt": "JBL GO 3 Speaker - front view",
         "isDefault": true
       },
       {
-        "id": "img-070b",
-        "url": "https://placehold.co/800x800/1a1a2e/e94560/png?text=JBL%20GO%203%20Speaker%0ADetail&font=montserrat",
+        "id": "img-170b",
+        "url": "https://picsum.photos/seed/511/800/800",
         "alt": "JBL GO 3 Speaker - detail view",
         "isDefault": false
       },
       {
-        "id": "img-070c",
-        "url": "https://placehold.co/800x800/1a1a2e/e94560/png?text=JBL%20GO%203%20Speaker%0ASide%20View&font=montserrat",
+        "id": "img-170c",
+        "url": "https://picsum.photos/seed/512/800/800",
         "alt": "JBL GO 3 Speaker - side view",
         "isDefault": false
       }
@@ -4943,20 +4943,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-071a",
-        "url": "https://placehold.co/800x800/1a1a2e/e94560/png?text=GreatThink%20ANC%20Earbuds&font=montserrat",
-        "alt": "GreatThink ANC Earbuds - main product image",
+        "id": "img-171a",
+        "url": "https://picsum.photos/seed/513/800/800",
+        "alt": "GreatThink ANC Earbuds - front view",
         "isDefault": true
       },
       {
-        "id": "img-071b",
-        "url": "https://placehold.co/800x800/1a1a2e/e94560/png?text=GreatThink%20ANC%20Earbuds%0ADetail&font=montserrat",
+        "id": "img-171b",
+        "url": "https://picsum.photos/seed/514/800/800",
         "alt": "GreatThink ANC Earbuds - detail view",
         "isDefault": false
       },
       {
-        "id": "img-071c",
-        "url": "https://placehold.co/800x800/1a1a2e/e94560/png?text=GreatThink%20ANC%20Earbuds%0ASide%20View&font=montserrat",
+        "id": "img-171c",
+        "url": "https://picsum.photos/seed/515/800/800",
         "alt": "GreatThink ANC Earbuds - side view",
         "isDefault": false
       }
@@ -5024,20 +5024,20 @@ export const products: Product[] = [
     ],
     "images": [
       {
-        "id": "img-072a",
-        "url": "https://placehold.co/800x800/2d4059/ea5455/png?text=Robot%20Vacuum%20%26%20Mop&font=montserrat",
-        "alt": "Robot Vacuum & Mop - main product image",
+        "id": "img-172a",
+        "url": "https://picsum.photos/seed/516/800/800",
+        "alt": "Robot Vacuum & Mop - front view",
         "isDefault": true
       },
       {
-        "id": "img-072b",
-        "url": "https://placehold.co/800x800/2d4059/ea5455/png?text=Robot%20Vacuum%20%26%20Mop%0ADetail&font=montserrat",
+        "id": "img-172b",
+        "url": "https://picsum.photos/seed/517/800/800",
         "alt": "Robot Vacuum & Mop - detail view",
         "isDefault": false
       },
       {
-        "id": "img-072c",
-        "url": "https://placehold.co/800x800/2d4059/ea5455/png?text=Robot%20Vacuum%20%26%20Mop%0ASide%20View&font=montserrat",
+        "id": "img-172c",
+        "url": "https://picsum.photos/seed/518/800/800",
         "alt": "Robot Vacuum & Mop - side view",
         "isDefault": false
       }
