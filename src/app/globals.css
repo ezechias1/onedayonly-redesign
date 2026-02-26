@@ -1,26 +1,336 @@
 @import "tailwindcss";
+@config "../../tailwind.config.ts";
 
+/* ============================================================
+ * OneDayOnly Redesign - Global Styles
+ * Tailwind CSS v4 + Custom Utilities
+ * ============================================================ */
+
+/* ──────────────────────────────────────────────
+ * CSS Custom Properties
+ * ────────────────────────────────────────────── */
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #111111;
+  --brand-red: #F4001A;
+  --brand-blue: #0093D0;
+
+  /* Flip-clock specific tokens */
+  --flip-bg: #1a1a1a;
+  --flip-text: #ffffff;
+  --flip-divider: rgba(0, 0, 0, 0.3);
 }
 
+.dark {
+  --background: #0F0F0F;
+  --foreground: #f0f0f0;
+  --flip-bg: #2a2a2a;
+  --flip-text: #ffffff;
+  --flip-divider: rgba(255, 255, 255, 0.1);
+}
+
+/* ──────────────────────────────────────────────
+ * Theme Integration
+ * ────────────────────────────────────────────── */
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-heading: "Montserrat", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-body: "Open Sans", ui-sans-serif, system-ui, -apple-system, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* ──────────────────────────────────────────────
+ * Base Styles
+ * ────────────────────────────────────────────── */
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-body);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* ──────────────────────────────────────────────
+ * Dark Mode Transitions
+ * Smooth transition when toggling between light
+ * and dark modes via next-themes.
+ * ────────────────────────────────────────────── */
+*,
+*::before,
+*::after {
+  transition-property: background-color, border-color, color, fill, stroke, box-shadow;
+  transition-timing-function: ease;
+  transition-duration: 0ms;
+}
+
+.dark-transition *,
+.dark-transition *::before,
+.dark-transition *::after {
+  transition-duration: 200ms;
+}
+
+/* ──────────────────────────────────────────────
+ * Custom Scrollbar
+ * ────────────────────────────────────────────── */
+
+/* Webkit (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a0a0a0;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #3a3a3a;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #555555;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #c1c1c1 transparent;
+}
+
+.dark * {
+  scrollbar-color: #3a3a3a transparent;
+}
+
+/* Hide scrollbar on horizontal carousels */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* ──────────────────────────────────────────────
+ * Flip-Clock Animation Keyframes
+ * Used for the countdown timer on the main deal.
+ * ────────────────────────────────────────────── */
+@keyframes flip-top {
+  0% {
+    transform: rotateX(0deg);
+  }
+  100% {
+    transform: rotateX(-90deg);
+  }
+}
+
+@keyframes flip-bottom {
+  0% {
+    transform: rotateX(90deg);
+  }
+  100% {
+    transform: rotateX(0deg);
+  }
+}
+
+@keyframes flip-card {
+  0% {
+    transform: perspective(400px) rotateX(0deg);
+    opacity: 1;
+  }
+  50% {
+    transform: perspective(400px) rotateX(-90deg);
+    opacity: 0.5;
+  }
+  100% {
+    transform: perspective(400px) rotateX(0deg);
+    opacity: 1;
+  }
+}
+
+.flip-clock-card {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--flip-bg);
+  color: var(--flip-text);
+  border-radius: 8px;
+  overflow: hidden;
+  perspective: 400px;
+}
+
+.flip-clock-card::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  height: 1px;
+  background: var(--flip-divider);
+  z-index: 5;
+}
+
+.flip-clock-digit {
+  display: inline-block;
+  transform-style: preserve-3d;
+}
+
+.flip-clock-digit.animate {
+  animation: flip-card 0.6s cubic-bezier(0.455, 0.030, 0.515, 0.955);
+}
+
+/* ──────────────────────────────────────────────
+ * Custom Utility Classes
+ * ────────────────────────────────────────────── */
+
+/* Text gradient for headings */
+.text-gradient-brand {
+  background: linear-gradient(135deg, var(--brand-red), var(--brand-blue));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Glassmorphism card */
+.glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.dark .glass {
+  background: rgba(26, 26, 26, 0.7);
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+/* Skeleton loading shimmer */
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    #f0f0f0 25%,
+    #e0e0e0 50%,
+    #f0f0f0 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.5s ease-in-out infinite;
+}
+
+.dark .skeleton {
+  background: linear-gradient(
+    90deg,
+    #1a1a1a 25%,
+    #2a2a2a 50%,
+    #1a1a1a 75%
+  );
+  background-size: 200% 100%;
+}
+
+/* Sale badge pulse */
+.badge-pulse {
+  animation: pulse-red 2s ease-in-out infinite;
+}
+
+@keyframes pulse-red {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(244, 0, 26, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 0 12px rgba(244, 0, 26, 0);
+  }
+}
+
+/* Line clamp utilities */
+.line-clamp-1 {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Price strikethrough */
+.price-original {
+  position: relative;
+  color: var(--brand-red);
+}
+
+.price-original::after {
+  content: "";
+  position: absolute;
+  left: -2px;
+  right: -2px;
+  top: 50%;
+  height: 2px;
+  background: currentColor;
+  transform: rotate(-8deg);
+}
+
+/* Announcement bar marquee */
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 20s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-marquee {
+    animation: none;
+  }
+}
+
+/* Focus-visible ring for accessibility */
+.focus-ring {
+  outline: none;
+}
+
+.focus-ring:focus-visible {
+  outline: 2px solid var(--brand-blue);
+  outline-offset: 2px;
+  border-radius: 4px;
 }
