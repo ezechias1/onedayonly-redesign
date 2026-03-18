@@ -2,7 +2,9 @@
 
 A modern redesign of [OneDayOnly.co.za](https://www.onedayonly.co.za) — South Africa's biggest daily deals site. Full frontend demo with 130+ pages.
 
-**Live Demo:** [onedayonly-redesign.vercel.app](https://onedayonly-redesign.vercel.app)
+**[Live Demo](https://onedayonly-redesign.vercel.app)**
+
+![OneDayOnly Redesign](screenshot.png)
 
 ## Features
 
